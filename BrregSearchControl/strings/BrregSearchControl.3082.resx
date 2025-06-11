@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name='resmimetype'>
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name='version'>
+    <value>2.0</value>
+  </resheader>
+  <resheader name='reader'>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name='writer'>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- BÚSQUEDA Y SELECCIÓN DE EMPRESA -->
+  <!-- ============================================ -->
+  <!-- Funcionalidad de búsqueda -->
+  <data name='search.placeholder.companyName'>
+    <value>Ingresa el nombre de la empresa...</value>
+  </data>
+  <data name='search.placeholder.orgNumber'>
+    <value>Ingresa el número de organización de 9 dígitos...</value>
+  </data>
+  <data name='search.placeholder.industry'>
+    <value>Ingresa el código de industria (ej. 45, 45.1, 45.11)...</value>
+  </data>
+  <data name='search.placeholder.disabled'>
+    <value>El formulario está deshabilitado</value>
+  </data>
+  <data name='search.button.search'>
+    <value>Buscar</value>
+  </data>
+  <data name='search.button.searching'>
+    <value>Buscando...</value>
+  </data>
+  <data name='search.button.searchByName'>
+    <value>Buscar por Nombre</value>
+  </data>
+  <data name='search.button.searchByOrgNumber'>
+    <value>Buscar por Núm. Org.</value>
+  </data>
+  <data name='search.button.searchByIndustry'>
+    <value>Buscar por Industria</value>
+  </data>
+  <data name='search.button.searchBrreg'>
+    <value>Buscar Brreg</value>
+  </data>
+  <data name='search.ariaLabel.companyNameInput'>
+    <value>Campo de búsqueda de nombre de empresa</value>
+  </data>
+  <data name='search.ariaLabel.orgNumberInput'>
+    <value>Campo de búsqueda de número de organización</value>
+  </data>
+  <data name='search.ariaLabel.industryInput'>
+    <value>Campo de búsqueda de código de industria</value>
+  </data>
+  <data name='search.ariaLabel.searchButton'>
+    <value>Buscar empresas</value>
+  </data>
+  <data name='search.ariaLabel.searchByName'>
+    <value>Buscar por nombre de empresa</value>
+  </data>
+  <data name='search.ariaLabel.searchByOrgNumber'>
+    <value>Buscar por número de organización</value>
+  </data>
+  <data name='search.ariaLabel.searchByIndustry'>
+    <value>Buscar por código de industria</value>
+  </data>
+  <data name='search.ariaLabel.searchBrregButton'>
+    <value>Buscar Registro Empresarial Noruego</value>
+  </data>
+  <data name='search.ariaLabel.moreSearchOptions'>
+    <value>Más opciones de búsqueda</value>
+  </data>
+  <data name='search.ariaLabel.changeSearchType'>
+    <value>Cambiar tipo de búsqueda</value>
+  </data>
+  <data name='search.menu.searchByCompanyName'>
+    <value>Buscar Por Nombre de Empresa</value>
+  </data>
+  <data name='search.menu.searchByOrgNumber'>
+    <value>Buscar por Número de Organización</value>
+  </data>
+  <data name='search.menu.searchByIndustry'>
+    <value>Buscar Por Industria</value>
+  </data>
+  <data name='search.menu.searchBy'>
+    <value>Buscar por</value>
+  </data>
+
+  <!-- Selección de empresa -->
+  <data name='company.selectCompany'>
+    <value>Seleccionar Empresa:</value>
+  </data>
+  <data name='company.dropdown.placeholder.searching'>
+    <value>Buscando...</value>
+  </data>
+  <data name='company.dropdown.placeholder.noCompanies'>
+    <value>No se encontraron empresas - busca primero</value>
+  </data>
+  <data name='company.dropdown.placeholder.selectCompany'>
+    <value>Selecciona una empresa</value>
+  </data>
+  <data name='company.dropdown.placeholder.disabled'>
+    <value>El formulario está deshabilitado</value>
+  </data>
+  <data name='company.dropdown.ariaLabel'>
+    <value>Seleccionar empresa de los resultados de búsqueda</value>
+  </data>
+  <data name='company.dropdown.enterstreetaddress'>
+    <value>Ingresa la dirección</value>
+  </data>
+
+  <!-- TRADUCCIONES DEL FORMULARIO -->
+  <!-- ============================================ -->
+  <!-- Etiquetas y secciones del formulario -->
+  <data name='form.labels.companyName'>
+    <value>Nombre de la Empresa</value>
+  </data>
+  <data name='form.labels.organizationNumber'>
+    <value>Número de Organización</value>
+  </data>
+  <data name='form.labels.streetAddress'>
+    <value>Dirección</value>
+  </data>
+  <data name='form.labels.postalCode'>
+    <value>Código Postal</value>
+  </data>
+  <data name='form.labels.city'>
+    <value>Ciudad</value>
+  </data>
+  <data name='form.labels.registrationDate'>
+    <value>Fecha de Registro</value>
+  </data>
+  <data name='form.sections.companyInformation'>
+    <value>Información de la Empresa</value>
+  </data>
+  <data name='form.sections.businessAddress'>
+    <value>Dirección Comercial</value>
+  </data>
+  <data name='form.sections.registrationDetails'>
+    <value>Detalles de Registro</value>
+  </data>
+  <data name='form.sections.postnumber'>
+    <value>Código postal</value>
+  </data>
+  <data name='form.sections.cityname'>
+    <value>Nombre de la ciudad</value>
+  </data>
+  <data name='form.sections.selectregistrationdate'>
+    <value>"Selecciona fecha de registro</value>
+  </data>
+  <data name='form.sections.selectcompregistrationdate'>
+    <value>Selecciona fecha de registro de la empresa</value>
+  </data>
+  <data name='form.sections.industrycode'>
+    <value>Código de industria</value>
+  </data>
+
+  <!-- ACCIONES DE DIÁLOGO Y BOTONES -->
+  <!-- ============================================ -->
+  <!-- Acciones de diálogo -->
+  <data name='dialog.cancel'>
+    <value>Cancelar</value>
+  </data>
+  <data name='dialog.accept'>
+    <value>Aceptar</value>
+  </data>
+  <data name='dialog.processing'>
+    <value>Procesando...</value>
+  </data>
+  <data name='dialog.ariaLabel.cancel'>
+    <value>Cancelar y cerrar diálogo</value>
+  </data>
+  <data name='dialog.ariaLabel.accept'>
+    <value>Aceptar información de empresa seleccionada</value>
+  </data>
+  <data name='dialog.ariaLabel.clear'>
+    <value>Borrar</value>
+  </data>
+
+  <!-- VISORES Y EXPORTACIONES -->
+  <!-- ============================================ -->
+  <!-- Visor JSON -->
+  <data name='json.title'>
+    <value>Datos de la Empresa</value>
+  </data>
+  <data name='json.viewButton'>
+    <value>Ver JSON</value>
+  </data>
+  <data name='json.viewAriaLabel'>
+    <value>Ver datos de la empresa como JSON</value>
+  </data>
+  <data name='json.copyButton'>
+    <value>Copiar JSON</value>
+  </data>
+  <data name='json.closeButton'>
+    <value>Cerrar</value>
+  </data>
+  <data name='json.noCompanySelected'>
+    <value>No hay empresa seleccionada</value>
+  </data>
+  <data name='json.copySuccess'>
+    <value>JSON Copiado</value>
+  </data>
+  <data name='json.copySuccessDescription'>
+    <value>Los datos de la empresa han sido copiados al portapapeles</value>
+  </data>
+  <data name='json.copyFailed'>
+    <value>Error al Copiar</value>
+  </data>
+  <data name='json.copyFailedDescription'>
+    <value>Error al copiar JSON al portapapeles</value>
+  </data>
+
+  <!-- Exportación Excel -->
+  <data name='excel.button'>
+    <value>Exportar Excel</value>
+  </data>
+  <data name='excel.ariaLabel'>
+    <value>Exportar datos de la empresa a Excel</value>
+  </data>
+
+  <!-- Visor de mapa -->
+  <data name='map.viewButton'>
+    <value>Ver Mapa</value>
+  </data>
+  <data name='map.viewAriaLabel'>
+    <value>Ver dirección de la empresa en el mapa</value>
+  </data>
+  <data name='map.title'>
+    <value>Ubicación de la Empresa</value>
+  </data>
+  <data name='map.companyAddress'>
+    <value>Dirección de la Empresa:</value>
+  </data>
+  <data name='map.pinnedAddress.header'>
+    <value>Dirección Fijada</value>
+  </data>
+  <data name='map.pinnedAddress.address'>
+    <value>Dirección:</value>
+  </data>
+  <data name='map.pinnedAddress.postalCode'>
+    <value>Código Postal:</value>
+  </data>
+  <data name='map.pinnedAddress.city'>
+    <value>Ciudad:</value>
+  </data>
+  <data name='map.pinnedAddress.usePinnedButton'>
+    <value>Usar Dirección Fijada</value>
+  </data>
+  <data name='map.pinnedAddress.closeAriaLabel'>
+    <value>Cerrar dirección fijada</value>
+  </data>
+  <data name='map.instructions.text'>
+    <value>Haz clic en cualquier lugar del mapa para fijar una nueva dirección</value>
+  </data>
+  <data name='map.instructions.closeAriaLabel'>
+    <value>Cerrar instrucciones del mapa</value>
+  </data>
+  <data name='map.addressNotFound.text'>
+    <value>Dirección no encontrada en el mapa. Aún puedes hacer clic para fijar una ubicación.</value>
+  </data>
+  <data name='map.addressNotFound.closeAriaLabel'>
+    <value>Cerrar mensaje de dirección no encontrada</value>
+  </data>
+  <data name='map.closeButton'>
+    <value>Cerrar</value>
+  </data>
+  <data name='map.pinnedlocation'>
+    <value>Ubicación fijada</value>
+  </data>
+
+  <!-- MENSAJES Y NOTIFICACIONES -->
+  <!-- ============================================ -->
+  <!-- Mensajes de error -->
+  <data name='errors.title'>
+    <value>Error</value>
+  </data>
+  <data name='errors.searchFailed'>
+    <value>Búsqueda fallida</value>
+  </data>
+  <data name='errors.searchError'>
+    <value>Error de Búsqueda</value>
+  </data>
+  <data name='errors.noResultsOrgNumber'>
+    <value>Número de organización no encontrado</value>
+  </data>
+  <data name='errors.noResultsIndustry'>
+    <value>No se encontraron empresas para este código de industria</value>
+  </data>
+  <data name='errors.noResultsName'>
+    <value>No se encontraron empresas con ese nombre</value>
+  </data>
+  <data name='errors.noResultsIndustryDetailed'>
+    <value>No se encontraron empresas para este código de industria. Prueba con un código diferente.</value>
+  </data>
+  <data name='errors.noResultsNameDetailed'>
+    <value>No se encontraron empresas. Prueba con un término de búsqueda diferente.</value>
+  </data>
+  <data name='errors.serviceUnavailable'>
+    <value>El servicio de Brønnøysundregistrene no está disponible actualmente</value>
+  </data>
+  <data name='errors.fetchError'>
+    <value>Error al obtener datos de la empresa</value>
+  </data>
+  <data name='errors.selectCompanyFirst'>
+    <value>Por favor selecciona una empresa primero</value>
+  </data>
+  <data name='errors.enterSearchTerm'>
+    <value>Por favor ingresa un término de búsqueda</value>
+  </data>
+  <data name='errors.searchFailedStatus'>
+    <value>La búsqueda falló con estado:</value>
+  </data>
+  <data name='errors.noresults'>
+    <value>Sin resultados</value>
+  </data>
+  <data name='errors.serviceunav'>
+    <value>Servicio no disponible</value>
+  </data>
+
+  <!-- Mensajes de éxito -->
+  <data name='success.title'>
+    <value>Éxito</value>
+  </data>
+  <data name='success.searchSuccessful'>
+    <value>Búsqueda exitosa</value>
+  </data>
+  <data name='success.companySelected'>
+    <value>Empresa seleccionada</value>
+  </data>
+  <data name='success.addressSelected'>
+    <value>Dirección seleccionada</value>
+  </data>
+  <data name='success.addressApplied'>
+    <value>La dirección del mapa ha sido aplicada al formulario</value>
+  </data>
+  <data name='success.companyAccepted'>
+    <value>¡Información de la empresa aceptada exitosamente!</value>
+  </data>
+  <data name='success.foundCompany'>
+    <value>Empresa encontrada:</value>
+  </data>
+  <data name='success.foundCompanies'>
+    <value>empresas</value>
+  </data>
+  <data name='success.foundCompaniesInIndustry'>
+    <value>empresas en esta industria</value>
+  </data>
+  <data name='success.found'>
+    <value>Encontrado</value>
+  </data>
+  <data name='success.selected'>
+    <value>Seleccionado:</value>
+  </data>
+  <data name='success.formCleared'>
+    <value>La información de la empresa ha sido restablecida</value>
+  </data>
+
+  <!-- Estados de carga -->
+  <data name='loading.searchingByName'>
+    <value>Buscando por nombre de empresa...</value>
+  </data>
+  <data name='loading.searchingByOrgNumber'>
+    <value>Buscando por número de organización...</value>
+  </data>
+  <data name='loading.searchingByIndustry'>
+    <value>Buscando por código de industria...</value>
+  </data>
+  <data name='loading.lookinguporgs'>
+    <value>Buscando organización</value>
+  </data>
+  <data name='loading.searchcompbyindustry'>
+    <value>Buscando empresas por industria</value>
+  </data>
+  <data name='loading.searchforcomps'>
+    <value>Buscando empresas</value>
+  </data>
+
+  <!-- TÍTULOS Y ENCABEZADOS -->
+  <!-- ============================================ -->
+  <!-- Títulos de página y encabezados -->
+  <data name='titles.main'>
+    <value>Búsqueda del Registro Empresarial Noruego</value>
+  </data>
+  <data name='titles.buttonModeExample'>
+    <value>Ejemplo de Modo Botón</value>
+  </data>
+  <data name='titles.formModeExample'>
+    <value>Ejemplo de Modo Formulario</value>
+  </data>
+  <data name='titles.webLightButton'>
+    <value>Botón Web Light</value>
+  </data>
+  <data name='titles.webLightForm'>
+    <value>Formulario Web Light</value>
+  </data>
+
+  <!-- Months -->
+  <data name='date.month.january'>
+    <value>Enero</value>
+  </data>
+  <data name='date.month.february'>
+    <value>Febrero</value>
+  </data>
+  <data name='date.month.march'>
+    <value>Marzo</value>
+  </data>
+  <data name='date.month.april'>
+    <value>Abril</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Mayo</value>
+  </data>
+  <data name='date.month.june'>
+    <value>Junio</value>
+  </data>
+  <data name='date.month.july'>
+    <value>Julio</value>
+  </data>
+  <data name='date.month.august'>
+    <value>Agosto</value>
+  </data>
+  <data name='date.month.september'>
+    <value>Septiembre</value>
+  </data>
+  <data name='date.month.october'>
+    <value>Octubre</value>
+  </data>
+  <data name='date.month.november'>
+    <value>Noviembre</value>
+  </data>
+  <data name='date.month.december'>
+    <value>Diciembre</value>
+  </data>
+  <data name='date.month.jan'>
+    <value>Ene</value>
+  </data>
+  <data name='date.month.feb'>
+    <value>Feb</value>
+  </data>
+  <data name='date.month.mar'>
+    <value>Mar</value>
+  </data>
+  <data name='date.month.apr'>
+    <value>Abr</value>
+  </data>
+  <data name='date.month.may'>
+    <value>May</value>
+  </data>
+  <data name='date.month.jun'>
+    <value>Jun</value>
+  </data>
+  <data name='date.month.jul'>
+    <value>Jul</value>
+  </data>
+  <data name='date.month.aug'>
+    <value>Ago</value>
+  </data>
+  <data name='date.month.sep'>
+    <value>Sep</value>
+  </data>
+  <data name='date.month.oct'>
+    <value>Oct</value>
+  </data>
+  <data name='date.month.nov'>
+    <value>Nov</value>
+  </data>
+  <data name='date.month.dec'>
+    <value>Dic</value>
+  </data>
+
+  <!-- Days of the week -->
+  <data name='date.day.monday'>
+    <value>Lunes</value>
+  </data>
+  <data name='date.day.tuesday'>
+    <value>Martes</value>
+  </data>
+  <data name='date.day.wednesday'>
+    <value>Miércoles</value>
+  </data>
+  <data name='date.day.thursday'>
+    <value>Jueves</value>
+  </data>
+  <data name='date.day.friday'>
+    <value>Viernes</value>
+  </data>
+  <data name='date.day.saturday'>
+    <value>Sábado</value>
+  </data>
+  <data name='date.day.sunday'>
+    <value>Domingo</value>
+  </data>
+  <data name='date.day.mon'>
+    <value>Lun</value>
+  </data>
+  <data name='date.day.tue'>
+    <value>Mar</value>
+  </data>
+  <data name='date.day.wed'>
+    <value>Mié</value>
+  </data>
+  <data name='date.day.thu'>
+    <value>Jue</value>
+  </data>
+  <data name='date.day.fri'>
+    <value>Vie</value>
+  </data>
+  <data name='date.day.sat'>
+    <value>Sáb</value>
+  </data>
+  <data name='date.day.sun'>
+    <value>Dom</value>
+  </data>
+
+  <!-- Date picker -->
+  <data name='goToToday'>
+    <value>Ir a hoy</value>
+  </data>
+  <data name='prevMonthAriaLabel'>
+    <value>Mes anterior</value>
+  </data>
+  <data name='nextMonthAriaLabel'>
+    <value>Mes siguiente</value>
+  </data>
+  <data name='prevYearAriaLabel'>
+    <value>Año anterior</value>
+  </data>
+  <data name='nextYearAriaLabel'>
+    <value>Año siguiente</value>
+  </data>
+  <data name='closeButtonAriaLabel'>
+    <value>Cerrar calendario</value>
+  </data>
+  <data name='monthPickerHeaderAriaLabel'>
+    <value>{0}, seleccionar para cambiar año</value>
+  </data>
+  <data name='yearPickerHeaderAriaLabel'>
+    <value>{0}, seleccionar para cambiar mes</value>
+  </data>
+
+  <!-- Descripciones -->
+  <data name='descriptions.mainSubtitle'>
+    <value>Ejemplos de modo formulario y botón con tema web light</value>
+  </data>
+</root>

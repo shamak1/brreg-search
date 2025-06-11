@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name='resmimetype'>
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name='version'>
+    <value>2.0</value>
+  </resheader>
+  <resheader name='reader'>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name='writer'>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- HAKU JA YRITYSVALINTA -->
+  <!-- ============================================ -->
+  <!-- Hakutoiminnot -->
+  <data name='search.placeholder.companyName'>
+    <value>Syötä yrityksen nimi...</value>
+  </data>
+  <data name='search.placeholder.orgNumber'>
+    <value>Syötä 9-numeroinen organisaationumero...</value>
+  </data>
+  <data name='search.placeholder.industry'>
+    <value>Syötä toimialakoodi (esim. 45, 45.1, 45.11)...</value>
+  </data>
+  <data name='search.placeholder.disabled'>
+    <value>Lomake on poistettu käytöstä</value>
+  </data>
+  <data name='search.button.search'>
+    <value>Hae</value>
+  </data>
+  <data name='search.button.searching'>
+    <value>Haetaan...</value>
+  </data>
+  <data name='search.button.searchByName'>
+    <value>Hae nimellä</value>
+  </data>
+  <data name='search.button.searchByOrgNumber'>
+    <value>Hae org.numerolla</value>
+  </data>
+  <data name='search.button.searchByIndustry'>
+    <value>Hae toimialalla</value>
+  </data>
+  <data name='search.button.searchBrreg'>
+    <value>Hae Brreg</value>
+  </data>
+  <data name='search.ariaLabel.companyNameInput'>
+    <value>Yrityksen nimen hakukenttä</value>
+  </data>
+  <data name='search.ariaLabel.orgNumberInput'>
+    <value>Organisaationumeron hakukenttä</value>
+  </data>
+  <data name='search.ariaLabel.industryInput'>
+    <value>Toimialakoodin hakukenttä</value>
+  </data>
+  <data name='search.ariaLabel.searchButton'>
+    <value>Hae yrityksiä</value>
+  </data>
+  <data name='search.ariaLabel.searchByName'>
+    <value>Hae yrityksen nimellä</value>
+  </data>
+  <data name='search.ariaLabel.searchByOrgNumber'>
+    <value>Hae organisaationumerolla</value>
+  </data>
+  <data name='search.ariaLabel.searchByIndustry'>
+    <value>Hae toimialakoodilla</value>
+  </data>
+  <data name='search.ariaLabel.searchBrregButton'>
+    <value>Hae Norjan yritysrekisteristä</value>
+  </data>
+  <data name='search.ariaLabel.moreSearchOptions'>
+    <value>Lisää hakuvaihtoehtoja</value>
+  </data>
+  <data name='search.ariaLabel.changeSearchType'>
+    <value>Vaihda hakutyyppiä</value>
+  </data>
+  <data name='search.menu.searchByCompanyName'>
+    <value>Hae yrityksen nimellä</value>
+  </data>
+  <data name='search.menu.searchByOrgNumber'>
+    <value>Hae organisaationumerolla</value>
+  </data>
+  <data name='search.menu.searchByIndustry'>
+    <value>Hae toimialalla</value>
+  </data>
+  <data name='search.menu.searchBy'>
+    <value>Hae</value>
+  </data>
+
+  <!-- Yritysvalinta -->
+  <data name='company.selectCompany'>
+    <value>Valitse yritys:</value>
+  </data>
+  <data name='company.dropdown.placeholder.searching'>
+    <value>Haetaan...</value>
+  </data>
+  <data name='company.dropdown.placeholder.noCompanies'>
+    <value>Yrityksiä ei löytynyt - hae ensin</value>
+  </data>
+  <data name='company.dropdown.placeholder.selectCompany'>
+    <value>Valitse yritys</value>
+  </data>
+  <data name='company.dropdown.placeholder.disabled'>
+    <value>Lomake on poistettu käytöstä</value>
+  </data>
+  <data name='company.dropdown.ariaLabel'>
+    <value>Valitse yritys hakutuloksista</value>
+  </data>
+  <data name='company.dropdown.enterstreetaddress'>
+    <value>Syötä katuosoite</value>
+  </data>
+
+  <!-- LOMAKKEEN KÄÄNNÖKSET -->
+  <!-- ============================================ -->
+  <!-- Lomakkeen kentät ja osiot -->
+  <data name='form.labels.companyName'>
+    <value>Yrityksen nimi</value>
+  </data>
+  <data name='form.labels.organizationNumber'>
+    <value>Organisaationumero</value>
+  </data>
+  <data name='form.labels.streetAddress'>
+    <value>Katuosoite</value>
+  </data>
+  <data name='form.labels.postalCode'>
+    <value>Postinumero</value>
+  </data>
+  <data name='form.labels.city'>
+    <value>Kaupunki</value>
+  </data>
+  <data name='form.labels.registrationDate'>
+    <value>Rekisteröintipäivä</value>
+  </data>
+  <data name='form.sections.companyInformation'>
+    <value>Yritystiedot</value>
+  </data>
+  <data name='form.sections.businessAddress'>
+    <value>Liiketoiminta-osoite</value>
+  </data>
+  <data name='form.sections.registrationDetails'>
+    <value>Rekisteröintitiedot</value>
+  </data>
+  <data name='form.sections.postnumber'>
+    <value>Postinumero</value>
+  </data>
+  <data name='form.sections.cityname'>
+    <value>Kaupungin nimi</value>
+  </data>
+  <data name='form.sections.selectregistrationdate'>
+    <value>Valitse rekisteröintipäivä</value>
+  </data>
+  <data name='form.sections.selectcompregistrationdate'>
+    <value>Valitse yrityksen rekisteröintipäivä</value>
+  </data>
+  <data name='form.sections.industrycode'>
+    <value>toimialakoodi</value>
+  </data>
+
+  <!-- DIALOGITOIMINNOT JA PAINIKKEET -->
+  <!-- ============================================ -->
+  <!-- Dialogitoiminnot -->
+  <data name='dialog.cancel'>
+    <value>Peruuta</value>
+  </data>
+  <data name='dialog.accept'>
+    <value>Hyväksy</value>
+  </data>
+  <data name='dialog.processing'>
+    <value>Käsitellään...</value>
+  </data>
+  <data name='dialog.ariaLabel.cancel'>
+    <value>Peruuta ja sulje dialogi</value>
+  </data>
+  <data name='dialog.ariaLabel.accept'>
+    <value>Hyväksy valitut yritystiedot</value>
+  </data>
+  <data name='dialog.ariaLabel.clear'>
+    <value>Tyhjennä</value>
+  </data>
+
+  <!-- KATSELUOHJELMAT JA VIENNIT -->
+  <!-- ============================================ -->
+  <!-- JSON-katselin -->
+  <data name='json.title'>
+    <value>Yritysdata</value>
+  </data>
+  <data name='json.viewButton'>
+    <value>Näytä JSON</value>
+  </data>
+  <data name='json.viewAriaLabel'>
+    <value>Näytä yritysdata JSON-muodossa</value>
+  </data>
+  <data name='json.copyButton'>
+    <value>Kopioi JSON</value>
+  </data>
+  <data name='json.closeButton'>
+    <value>Sulje</value>
+  </data>
+  <data name='json.noCompanySelected'>
+    <value>Yritystä ei ole valittu</value>
+  </data>
+  <data name='json.copySuccess'>
+    <value>JSON kopioitu</value>
+  </data>
+  <data name='json.copySuccessDescription'>
+    <value>Yritysdata on kopioitu leikepöydälle</value>
+  </data>
+  <data name='json.copyFailed'>
+    <value>Kopiointi epäonnistui</value>
+  </data>
+  <data name='json.copyFailedDescription'>
+    <value>JSON:n kopiointi leikepöydälle epäonnistui</value>
+  </data>
+
+  <!-- Excel-vienti -->
+  <data name='excel.button'>
+    <value>Vie Excel</value>
+  </data>
+  <data name='excel.ariaLabel'>
+    <value>Vie yritysdata Exceliin</value>
+  </data>
+
+  <!-- Karttakatselin -->
+  <data name='map.viewButton'>
+    <value>Näytä Kartta</value>
+  </data>
+  <data name='map.viewAriaLabel'>
+    <value>Näytä yrityksen osoite kartalla</value>
+  </data>
+  <data name='map.title'>
+    <value>Yrityksen sijainti</value>
+  </data>
+  <data name='map.companyAddress'>
+    <value>Yrityksen osoite:</value>
+  </data>
+  <data name='map.pinnedAddress.header'>
+    <value>Kiinnitetty osoite</value>
+  </data>
+  <data name='map.pinnedAddress.address'>
+    <value>Osoite:</value>
+  </data>
+  <data name='map.pinnedAddress.postalCode'>
+    <value>Postinumero:</value>
+  </data>
+  <data name='map.pinnedAddress.city'>
+    <value>Kaupunki:</value>
+  </data>
+  <data name='map.pinnedAddress.usePinnedButton'>
+    <value>Käytä kiinnitettyä osoitetta</value>
+  </data>
+  <data name='map.pinnedAddress.closeAriaLabel'>
+    <value>Sulje kiinnitetty osoite</value>
+  </data>
+  <data name='map.instructions.text'>
+    <value>Napsauta mitä tahansa kohtaa kartalla kiinnittääksesi uuden osoitteen</value>
+  </data>
+  <data name='map.instructions.closeAriaLabel'>
+    <value>Sulje karttaohjeet</value>
+  </data>
+  <data name='map.addressNotFound.text'>
+    <value>Osoitetta ei löytynyt kartalta. Voit silti napsauttaa kiinnittääksesi sijainnin.</value>
+  </data>
+  <data name='map.addressNotFound.closeAriaLabel'>
+    <value>Sulje "osoitetta ei löytynyt" -viesti</value>
+  </data>
+  <data name='map.closeButton'>
+    <value>Sulje</value>
+  </data>
+  <data name='map.pinnedlocation'>
+    <value>Kiinnitetty sijainti</value>
+  </data>
+
+  <!-- VIESTIT JA ILMOITUKSET -->
+  <!-- ============================================ -->
+  <!-- Virheviestit -->
+  <data name='errors.title'>
+    <value>Virhe</value>
+  </data>
+  <data name='errors.searchFailed'>
+    <value>Haku epäonnistui</value>
+  </data>
+  <data name='errors.searchError'>
+    <value>Hakuvirhe</value>
+  </data>
+  <data name='errors.noResultsOrgNumber'>
+    <value>Organisaationumeroa ei löytynyt</value>
+  </data>
+  <data name='errors.noResultsIndustry'>
+    <value>Tälle toimialakoodille ei löytynyt yrityksiä</value>
+  </data>
+  <data name='errors.noResultsName'>
+    <value>Kyseisellä nimellä ei löytynyt yrityksiä</value>
+  </data>
+  <data name='errors.noResultsIndustryDetailed'>
+    <value>Tälle toimialakoodille ei löytynyt yrityksiä. Kokeile eri koodia.</value>
+  </data>
+  <data name='errors.noResultsNameDetailed'>
+    <value>Yrityksiä ei löytynyt. Kokeile eri hakusanaa.</value>
+  </data>
+  <data name='errors.serviceUnavailable'>
+    <value>Brønnøysundregistrene-palvelu ei ole tällä hetkellä käytettävissä</value>
+  </data>
+  <data name='errors.fetchError'>
+    <value>Virhe yritystietojen haussa</value>
+  </data>
+  <data name='errors.selectCompanyFirst'>
+    <value>Valitse ensin yritys</value>
+  </data>
+  <data name='errors.enterSearchTerm'>
+    <value>Syötä hakusana</value>
+  </data>
+  <data name='errors.searchFailedStatus'>
+    <value>Haku epäonnistui tilalla:</value>
+  </data>
+  <data name='errors.noresults'>
+    <value>Ei tuloksia</value>
+  </data>
+  <data name='errors.serviceunav'>
+    <value>Palvelu ei käytettävissä</value>
+  </data>
+
+  <!-- Onnistumisviestit -->
+  <data name='success.title'>
+    <value>Onnistui</value>
+  </data>
+  <data name='success.searchSuccessful'>
+    <value>Haku onnistui</value>
+  </data>
+  <data name='success.companySelected'>
+    <value>Yritys valittu</value>
+  </data>
+  <data name='success.addressSelected'>
+    <value>Osoite valittu</value>
+  </data>
+  <data name='success.addressApplied'>
+    <value>Kartan osoite on sovellettu lomakkeeseen</value>
+  </data>
+  <data name='success.companyAccepted'>
+    <value>Yritystiedot hyväksytty onnistuneesti!</value>
+  </data>
+  <data name='success.foundCompany'>
+    <value>Löytyi yritys:</value>
+  </data>
+  <data name='success.foundCompanies'>
+    <value>yritystä</value>
+  </data>
+  <data name='success.foundCompaniesInIndustry'>
+    <value>yritystä tällä toimialalla</value>
+  </data>
+  <data name='success.found'>
+    <value>Löytyi</value>
+  </data>
+  <data name='success.selected'>
+    <value>Valittu:</value>
+  </data>
+  <data name='success.formCleared'>
+    <value>Yritystiedot on palautettu oletusarvoihin</value>
+  </data>
+
+  <!-- Lataustilatiedot -->
+  <data name='loading.searchingByName'>
+    <value>Haetaan yrityksen nimellä...</value>
+  </data>
+  <data name='loading.searchingByOrgNumber'>
+    <value>Haetaan organisaationumerolla...</value>
+  </data>
+  <data name='loading.searchingByIndustry'>
+    <value>Haetaan toimialakoodilla...</value>
+  </data>
+  <data name='loading.lookinguporgs'>
+    <value>Haetaan organisaatiota...</value>
+  </data>
+  <data name='loading.searchcompbyindustry'>
+    <value>Haetaan yrityksiä toimialan mukaan...</value>
+  </data>
+  <data name='loading.searchforcomps'>
+    <value>Haetaan yrityksiä...</value>
+  </data>
+
+  <!-- OTSIKOT JA YLÄTUNNISTEET -->
+  <!-- ============================================ -->
+  <!-- Sivun otsikot ja ylätunnisteet -->
+  <data name='titles.main'>
+    <value>Norjan yritysrekisterihaku</value>
+  </data>
+  <data name='titles.buttonModeExample'>
+    <value>Painike-tilan esimerkki</value>
+  </data>
+  <data name='titles.formModeExample'>
+    <value>Lomake-tilan esimerkki</value>
+  </data>
+  <data name='titles.webLightButton'>
+    <value>Web Light -painike</value>
+  </data>
+  <data name='titles.webLightForm'>
+    <value>Web Light -lomake</value>
+  </data>
+
+  <!-- Months -->
+  <data name='date.month.january'>
+    <value>Tammikuu</value>
+  </data>
+  <data name='date.month.february'>
+    <value>Helmikuu</value>
+  </data>
+  <data name='date.month.march'>
+    <value>Maaliskuu</value>
+  </data>
+  <data name='date.month.april'>
+    <value>Huhtikuu</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Toukokuu</value>
+  </data>
+  <data name='date.month.june'>
+    <value>Kesäkuu</value>
+  </data>
+  <data name='date.month.july'>
+    <value>Heinäkuu</value>
+  </data>
+  <data name='date.month.august'>
+    <value>Elokuu</value>
+  </data>
+  <data name='date.month.september'>
+    <value>Syyskuu</value>
+  </data>
+  <data name='date.month.october'>
+    <value>Lokakuu</value>
+  </data>
+  <data name='date.month.november'>
+    <value>Marraskuu</value>
+  </data>
+  <data name='date.month.december'>
+    <value>Joulukuu</value>
+  </data>
+  <data name='date.month.jan'>
+    <value>Tammi</value>
+  </data>
+  <data name='date.month.feb'>
+    <value>Helmi</value>
+  </data>
+  <data name='date.month.mar'>
+    <value>Maalis</value>
+  </data>
+  <data name='date.month.apr'>
+    <value>Huhti</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Touko</value>
+  </data>
+  <data name='date.month.jun'>
+    <value>Kesä</value>
+  </data>
+  <data name='date.month.jul'>
+    <value>Heinä</value>
+  </data>
+  <data name='date.month.aug'>
+    <value>Elo</value>
+  </data>
+  <data name='date.month.sep'>
+    <value>Syys</value>
+  </data>
+  <data name='date.month.oct'>
+    <value>Loka</value>
+  </data>
+  <data name='date.month.nov'>
+    <value>Marras</value>
+  </data>
+  <data name='date.month.dec'>
+    <value>Joulu</value>
+  </data>
+
+  <!-- Days of the week -->
+  <data name='date.day.monday'>
+    <value>Maanantai</value>
+  </data>
+  <data name='date.day.tuesday'>
+    <value>Tiistai</value>
+  </data>
+  <data name='date.day.wednesday'>
+    <value>Keskiviikko</value>
+  </data>
+  <data name='date.day.thursday'>
+    <value>Torstai</value>
+  </data>
+  <data name='date.day.friday'>
+    <value>Perjantai</value>
+  </data>
+  <data name='date.day.saturday'>
+    <value>Lauantai</value>
+  </data>
+  <data name='date.day.sunday'>
+    <value>Sunnuntai</value>
+  </data>
+  <data name='date.day.mon'>
+    <value>Ma</value>
+  </data>
+  <data name='date.day.tue'>
+    <value>Ti</value>
+  </data>
+  <data name='date.day.wed'>
+    <value>Ke</value>
+  </data>
+  <data name='date.day.thu'>
+    <value>To</value>
+  </data>
+  <data name='date.day.fri'>
+    <value>Pe</value>
+  </data>
+  <data name='date.day.sat'>
+    <value>La</value>
+  </data>
+  <data name='date.day.sun'>
+    <value>Su</value>
+  </data>
+
+  <!-- Date picker -->
+  <data name='goToToday'>
+    <value>Siirry tähän päivään</value>
+  </data>
+  <data name='prevMonthAriaLabel'>
+    <value>Edellinen kuukausi</value>
+  </data>
+  <data name='nextMonthAriaLabel'>
+    <value>Seuraava kuukausi</value>
+  </data>
+  <data name='prevYearAriaLabel'>
+    <value>Edellinen vuosi</value>
+  </data>
+  <data name='nextYearAriaLabel'>
+    <value>Seuraava vuosi</value>
+  </data>
+  <data name='closeButtonAriaLabel'>
+    <value>Sulje kalenteri</value>
+  </data>
+  <data name='monthPickerHeaderAriaLabel'>
+    <value>{0}, valitse vaihtaaksesi vuotta</value>
+  </data>
+  <data name='yearPickerHeaderAriaLabel'>
+    <value>{0}, valitse vaihtaaksesi kuukautta</value>
+  </data>
+
+  <!-- Kuvaukset -->
+  <data name='descriptions.mainSubtitle'>
+    <value>Lomake- ja painike-tilan esimerkit web light -teemalla</value>
+  </data>
+</root>

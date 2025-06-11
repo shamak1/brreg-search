@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name='resmimetype'>
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name='version'>
+    <value>2.0</value>
+  </resheader>
+  <resheader name='reader'>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name='writer'>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- SØK OG SELSKAPSVALG -->
+  <!-- ============================================ -->
+  <!-- Søkefunksjonalitet -->
+  <data name='search.placeholder.companyName'>
+    <value>Skriv inn firmanavn...</value>
+  </data>
+  <data name='search.placeholder.orgNumber'>
+    <value>Skriv inn 9-sifret organisasjonsnummer...</value>
+  </data>
+  <data name='search.placeholder.industry'>
+    <value>Skriv inn næringskode (f.eks. 45, 45.1, 45.11)...</value>
+  </data>
+  <data name='search.placeholder.disabled'>
+    <value>Skjemaet er deaktivert</value>
+  </data>
+  <data name='search.button.search'>
+    <value>Søk</value>
+  </data>
+  <data name='search.button.searching'>
+    <value>Søker...</value>
+  </data>
+  <data name='search.button.searchByName'>
+    <value>Søk på Navn</value>
+  </data>
+  <data name='search.button.searchByOrgNumber'>
+    <value>Søk på Org.nr</value>
+  </data>
+  <data name='search.button.searchByIndustry'>
+    <value>Søk på Næring</value>
+  </data>
+  <data name='search.button.searchBrreg'>
+    <value>Søk Brreg</value>
+  </data>
+  <data name='search.ariaLabel.companyNameInput'>
+    <value>Søkefelt for firmanavn</value>
+  </data>
+  <data name='search.ariaLabel.orgNumberInput'>
+    <value>Søkefelt for organisasjonsnummer</value>
+  </data>
+  <data name='search.ariaLabel.industryInput'>
+    <value>Søkefelt for næringskode</value>
+  </data>
+  <data name='search.ariaLabel.searchButton'>
+    <value>Søk etter selskaper</value>
+  </data>
+  <data name='search.ariaLabel.searchByName'>
+    <value>Søk på firmanavn</value>
+  </data>
+  <data name='search.ariaLabel.searchByOrgNumber'>
+    <value>Søk på organisasjonsnummer</value>
+  </data>
+  <data name='search.ariaLabel.searchByIndustry'>
+    <value>Søk på næringskode</value>
+  </data>
+  <data name='search.ariaLabel.searchBrregButton'>
+    <value>Søk Brønnøysundregistrene</value>
+  </data>
+  <data name='search.ariaLabel.moreSearchOptions'>
+    <value>Flere søkealternativer</value>
+  </data>
+  <data name='search.ariaLabel.changeSearchType'>
+    <value>Endre søketype</value>
+  </data>
+  <data name='search.menu.searchByCompanyName'>
+    <value>Søk På Firmanavn</value>
+  </data>
+  <data name='search.menu.searchByOrgNumber'>
+    <value>Søk på Organisasjonsnummer</value>
+  </data>
+  <data name='search.menu.searchByIndustry'>
+    <value>Søk På Næring</value>
+  </data>
+  <data name='search.menu.searchBy'>
+    <value>Søk etter</value>
+  </data>
+
+  <!-- Selskapsvalg -->
+  <data name='company.selectCompany'>
+    <value>Velg Selskap:</value>
+  </data>
+  <data name='company.dropdown.placeholder.searching'>
+    <value>Søker...</value>
+  </data>
+  <data name='company.dropdown.placeholder.noCompanies'>
+    <value>Ingen selskaper funnet - søk først</value>
+  </data>
+  <data name='company.dropdown.placeholder.selectCompany'>
+    <value>Velg et selskap</value>
+  </data>
+  <data name='company.dropdown.placeholder.disabled'>
+    <value>Skjemaet er deaktivert</value>
+  </data>
+  <data name='company.dropdown.ariaLabel'>
+    <value>Velg selskap fra søkeresultater</value>
+  </data>
+  <data name='company.dropdown.enterstreetaddress'>
+    <value>Skriv inn gateadresse</value>
+  </data>
+
+  <!-- SKJEMAOVERSETTELSER -->
+  <!-- ============================================ -->
+  <!-- Skjemaetiketter og seksjoner -->
+  <data name='form.labels.companyName'>
+    <value>Firmanavn</value>
+  </data>
+  <data name='form.labels.organizationNumber'>
+    <value>Organisasjonsnummer</value>
+  </data>
+  <data name='form.labels.streetAddress'>
+    <value>Gateadresse</value>
+  </data>
+  <data name='form.labels.postalCode'>
+    <value>Postnummer</value>
+  </data>
+  <data name='form.labels.city'>
+    <value>Poststed</value>
+  </data>
+  <data name='form.labels.registrationDate'>
+    <value>Registreringsdato</value>
+  </data>
+  <data name='form.sections.companyInformation'>
+    <value>Selskapsinformasjon</value>
+  </data>
+  <data name='form.sections.businessAddress'>
+    <value>Forretningsadresse</value>
+  </data>
+  <data name='form.sections.registrationDetails'>
+    <value>Registreringsdetaljer</value>
+  </data>
+  <data name='form.sections.postnumber'>
+    <value>Postnummer</value>
+  </data>
+  <data name='form.sections.cityname'>
+    <value>Bynavn</value>
+  </data>
+  <data name='form.sections.selectregistrationdate'>
+    <value>Velg registreringsdato</value>
+  </data>
+  <data name='form.sections.selectcompregistrationdate'>
+    <value>Velg selskapets registreringsdato</value>
+  </data>
+  <data name='form.sections.industrycode'>
+    <value>Næringskode</value>
+  </data>
+
+  <!-- DIALOGHANDLINGER OG KNAPPER -->
+  <!-- ============================================ -->
+  <!-- Dialoghandlinger -->
+  <data name='dialog.cancel'>
+    <value>Avbryt</value>
+  </data>
+  <data name='dialog.accept'>
+    <value>Aksepter</value>
+  </data>
+  <data name='dialog.processing'>
+    <value>Behandler...</value>
+  </data>
+  <data name='dialog.ariaLabel.cancel'>
+    <value>Avbryt og lukk dialog</value>
+  </data>
+  <data name='dialog.ariaLabel.accept'>
+    <value>Aksepter valgt selskapsinformasjon</value>
+  </data>
+  <data name='dialog.ariaLabel.clear'>
+    <value>Tøm</value>
+  </data>
+
+  <!-- VISERE OG EKSPORTER -->
+  <!-- ============================================ -->
+  <!-- JSON-viser -->
+  <data name='json.title'>
+    <value>Selskapsdata</value>
+  </data>
+  <data name='json.viewButton'>
+    <value>Vis JSON</value>
+  </data>
+  <data name='json.viewAriaLabel'>
+    <value>Vis selskapsdata som JSON</value>
+  </data>
+  <data name='json.copyButton'>
+    <value>Kopier JSON</value>
+  </data>
+  <data name='json.closeButton'>
+    <value>Lukk</value>
+  </data>
+  <data name='json.noCompanySelected'>
+    <value>Ingen selskap valgt</value>
+  </data>
+  <data name='json.copySuccess'>
+    <value>JSON Kopiert</value>
+  </data>
+  <data name='json.copySuccessDescription'>
+    <value>Selskapsdata har blitt kopiert til utklippstavlen</value>
+  </data>
+  <data name='json.copyFailed'>
+    <value>Kopiering Mislyktes</value>
+  </data>
+  <data name='json.copyFailedDescription'>
+    <value>Kunne ikke kopiere JSON til utklippstavlen</value>
+  </data>
+
+  <!-- Excel-eksport -->
+  <data name='excel.button'>
+    <value>Eksporter Excel</value>
+  </data>
+  <data name='excel.ariaLabel'>
+    <value>Eksporter selskapsdata til Excel</value>
+  </data>
+
+  <!-- Kartviser -->
+  <data name='map.viewButton'>
+    <value>Vis Kart</value>
+  </data>
+  <data name='map.viewAriaLabel'>
+    <value>Vis selskapets adresse på kart</value>
+  </data>
+  <data name='map.title'>
+    <value>Selskapets Plassering</value>
+  </data>
+  <data name='map.companyAddress'>
+    <value>Selskapets Adresse:</value>
+  </data>
+  <data name='map.pinnedAddress.header'>
+    <value>Festet Adresse</value>
+  </data>
+  <data name='map.pinnedAddress.address'>
+    <value>Adresse:</value>
+  </data>
+  <data name='map.pinnedAddress.postalCode'>
+    <value>Postnummer:</value>
+  </data>
+  <data name='map.pinnedAddress.city'>
+    <value>Poststed:</value>
+  </data>
+  <data name='map.pinnedAddress.usePinnedButton'>
+    <value>Bruk Festet Adresse</value>
+  </data>
+  <data name='map.pinnedAddress.closeAriaLabel'>
+    <value>Lukk festet adresse</value>
+  </data>
+  <data name='map.instructions.text'>
+    <value>Klikk hvor som helst på kartet for å feste en ny adresse</value>
+  </data>
+  <data name='map.instructions.closeAriaLabel'>
+    <value>Lukk kartinstruksjoner</value>
+  </data>
+  <data name='map.addressNotFound.text'>
+    <value>Adresse ikke funnet på kartet. Du kan fortsatt klikke for å feste en plassering.</value>
+  </data>
+  <data name='map.addressNotFound.closeAriaLabel'>
+    <value>Lukk adresse ikke funnet melding</value>
+  </data>
+  <data name='map.closeButton'>
+    <value>Lukk</value>
+  </data>
+  <data name='map.pinnedlocation'>
+    <value>Festet posisjon</value>
+  </data>
+
+  <!-- MELDINGER OG VARSLINGER -->
+  <!-- ============================================ -->
+  <!-- Feilmeldinger -->
+  <data name='errors.title'>
+    <value>Feil</value>
+  </data>
+  <data name='errors.searchFailed'>
+    <value>Søket mislyktes</value>
+  </data>
+  <data name='errors.searchError'>
+    <value>Søkefeil</value>
+  </data>
+  <data name='errors.noResultsOrgNumber'>
+    <value>Organisasjonsnummer ikke funnet</value>
+  </data>
+  <data name='errors.noResultsIndustry'>
+    <value>Ingen selskaper funnet for denne næringskoden</value>
+  </data>
+  <data name='errors.noResultsName'>
+    <value>Ingen selskaper funnet med det navnet</value>
+  </data>
+  <data name='errors.noResultsIndustryDetailed'>
+    <value>Ingen selskaper funnet for denne næringskoden. Prøv en annen kode.</value>
+  </data>
+  <data name='errors.noResultsNameDetailed'>
+    <value>Ingen selskaper funnet. Prøv et annet søkeord.</value>
+  </data>
+  <data name='errors.serviceUnavailable'>
+    <value>Brønnøysundregistrene-tjenesten er for øyeblikket utilgjengelig</value>
+  </data>
+  <data name='errors.fetchError'>
+    <value>Feil ved henting av selskapsdata</value>
+  </data>
+  <data name='errors.selectCompanyFirst'>
+    <value>Vennligst velg et selskap først</value>
+  </data>
+  <data name='errors.enterSearchTerm'>
+    <value>Vennligst skriv inn et søkeord</value>
+  </data>
+  <data name='errors.searchFailedStatus'>
+    <value>Søk mislyktes med status:</value>
+  </data>
+  <data name='errors.noresults'>
+    <value>Ingen resultater</value>
+  </data>
+  <data name='errors.serviceunav'>
+    <value>Tjeneste ikke tilgjengelig</value>
+  </data>
+
+  <!-- Suksessmeldinger -->
+  <data name='success.title'>
+    <value>Suksess</value>
+  </data>
+  <data name='success.searchSuccessful'>
+    <value>Søket var vellykket</value>
+  </data>
+  <data name='success.companySelected'>
+    <value>Selskap valgt</value>
+  </data>
+  <data name='success.addressSelected'>
+    <value>Adresse valgt</value>
+  </data>
+  <data name='success.addressApplied'>
+    <value>Kartadresse har blitt brukt i skjemaet</value>
+  </data>
+  <data name='success.companyAccepted'>
+    <value>Selskapsinformasjon akseptert!</value>
+  </data>
+  <data name='success.foundCompany'>
+    <value>Fant selskap:</value>
+  </data>
+  <data name='success.foundCompanies'>
+    <value>selskaper</value>
+  </data>
+  <data name='success.foundCompaniesInIndustry'>
+    <value>selskaper i denne næringen</value>
+  </data>
+  <data name='success.found'>
+    <value>Fant</value>
+  </data>
+  <data name='success.selected'>
+    <value>Valgt:</value>
+  </data>
+  <data name='success.formCleared'>
+    <value>Firmainformasjonen har blitt tilbakestilt</value>
+  </data>
+
+  <!-- Lastetilstander -->
+  <data name='loading.searchingByName'>
+    <value>Søker på firmanavn...</value>
+  </data>
+  <data name='loading.searchingByOrgNumber'>
+    <value>Søker på organisasjonsnummer...</value>
+  </data>
+  <data name='loading.searchingByIndustry'>
+    <value>Søker på næringskode...</value>
+  </data>
+  <data name='loading.lookinguporgs'>
+    <value>Søker etter organisasjon</value>
+  </data>
+  <data name='loading.searchcompbyindustry'>
+    <value>Søker etter selskaper etter bransje</value>
+  </data>
+  <data name='loading.searchforcomps'>
+    <value>Søker etter selskaper</value>
+  </data>
+
+  <!-- TITLER OG OVERSKRIFTER -->
+  <!-- ============================================ -->
+  <!-- Sidetitler og overskrifter -->
+  <data name='titles.main'>
+    <value>Søk i Brønnøysundregistrene</value>
+  </data>
+  <data name='titles.buttonModeExample'>
+    <value>Knapp-modus Eksempel</value>
+  </data>
+  <data name='titles.formModeExample'>
+    <value>Skjema-modus Eksempel</value>
+  </data>
+  <data name='titles.webLightButton'>
+    <value>Web Light Knapp</value>
+  </data>
+  <data name='titles.webLightForm'>
+    <value>Web Light Skjema</value>
+  </data>
+
+  <!-- Months -->
+  <data name='date.month.january'>
+    <value>Januar</value>
+  </data>
+  <data name='date.month.february'>
+    <value>Februar</value>
+  </data>
+  <data name='date.month.march'>
+    <value>Mars</value>
+  </data>
+  <data name='date.month.april'>
+    <value>April</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Mai</value>
+  </data>
+  <data name='date.month.june'>
+    <value>Juni</value>
+  </data>
+  <data name='date.month.july'>
+    <value>Juli</value>
+  </data>
+  <data name='date.month.august'>
+    <value>August</value>
+  </data>
+  <data name='date.month.september'>
+    <value>September</value>
+  </data>
+  <data name='date.month.october'>
+    <value>Oktober</value>
+  </data>
+  <data name='date.month.november'>
+    <value>November</value>
+  </data>
+  <data name='date.month.december'>
+    <value>Desember</value>
+  </data>
+  <data name='date.month.jan'>
+    <value>Jan</value>
+  </data>
+  <data name='date.month.feb'>
+    <value>Feb</value>
+  </data>
+  <data name='date.month.mar'>
+    <value>Mar</value>
+  </data>
+  <data name='date.month.apr'>
+    <value>Apr</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Mai</value>
+  </data>
+  <data name='date.month.jun'>
+    <value>Jun</value>
+  </data>
+  <data name='date.month.jul'>
+    <value>Jul</value>
+  </data>
+  <data name='date.month.aug'>
+    <value>Aug</value>
+  </data>
+  <data name='date.month.sep'>
+    <value>Sep</value>
+  </data>
+  <data name='date.month.oct'>
+    <value>Okt</value>
+  </data>
+  <data name='date.month.nov'>
+    <value>Nov</value>
+  </data>
+  <data name='date.month.dec'>
+    <value>Des</value>
+  </data>
+
+  <!-- Days of the week -->
+  <data name='date.day.monday'>
+    <value>Mandag</value>
+  </data>
+  <data name='date.day.tuesday'>
+    <value>Tirsdag</value>
+  </data>
+  <data name='date.day.wednesday'>
+    <value>Onsdag</value>
+  </data>
+  <data name='date.day.thursday'>
+    <value>Torsdag</value>
+  </data>
+  <data name='date.day.friday'>
+    <value>Fredag</value>
+  </data>
+  <data name='date.day.saturday'>
+    <value>Lørdag</value>
+  </data>
+  <data name='date.day.sunday'>
+    <value>Søndag</value>
+  </data>
+  <data name='date.day.mon'>
+    <value>Man</value>
+  </data>
+  <data name='date.day.tue'>
+    <value>Tir</value>
+  </data>
+  <data name='date.day.wed'>
+    <value>Ons</value>
+  </data>
+  <data name='date.day.thu'>
+    <value>Tor</value>
+  </data>
+  <data name='date.day.fri'>
+    <value>Fre</value>
+  </data>
+  <data name='date.day.sat'>
+    <value>Lør</value>
+  </data>
+  <data name='date.day.sun'>
+    <value>Søn</value>
+  </data>
+
+  <!-- Date picker -->
+  <data name='goToToday'>
+    <value>Gå til i dag</value>
+  </data>
+  <data name='prevMonthAriaLabel'>
+    <value>Forrige måned</value>
+  </data>
+  <data name='nextMonthAriaLabel'>
+    <value>Neste måned</value>
+  </data>
+  <data name='prevYearAriaLabel'>
+    <value>Forrige år</value>
+  </data>
+  <data name='nextYearAriaLabel'>
+    <value>Neste år</value>
+  </data>
+  <data name='closeButtonAriaLabel'>
+    <value>Lukk kalender</value>
+  </data>
+  <data name='monthPickerHeaderAriaLabel'>
+    <value>{0}, velg for å endre år</value>
+  </data>
+  <data name='yearPickerHeaderAriaLabel'>
+    <value>{0}, velg for å endre måned</value>
+  </data>
+
+  <!-- Beskrivelser -->
+  <data name='descriptions.mainSubtitle'>
+    <value>Skjema- og knapp-modus eksempler med web light tema</value>
+  </data>
+</root>

@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name='resmimetype'>
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name='version'>
+    <value>2.0</value>
+  </resheader>
+  <resheader name='reader'>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name='writer'>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- SÖK OCH FÖRETAGSVAL -->
+  <!-- ============================================ -->
+  <!-- Sökfunktionalitet -->
+  <data name='search.placeholder.companyName'>
+    <value>Ange företagsnamn...</value>
+  </data>
+  <data name='search.placeholder.orgNumber'>
+    <value>Ange 9-siffrigt organisationsnummer...</value>
+  </data>
+  <data name='search.placeholder.industry'>
+    <value>Ange branschkod (t.ex. 45, 45.1, 45.11)...</value>
+  </data>
+  <data name='search.placeholder.disabled'>
+    <value>Formuläret är inaktiverat</value>
+  </data>
+  <data name='search.button.search'>
+    <value>Sök</value>
+  </data>
+  <data name='search.button.searching'>
+    <value>Söker...</value>
+  </data>
+  <data name='search.button.searchByName'>
+    <value>Sök efter namn</value>
+  </data>
+  <data name='search.button.searchByOrgNumber'>
+    <value>Sök efter org.nr</value>
+  </data>
+  <data name='search.button.searchByIndustry'>
+    <value>Sök efter bransch</value>
+  </data>
+  <data name='search.button.searchBrreg'>
+    <value>Sök Brreg</value>
+  </data>
+  <data name='search.ariaLabel.companyNameInput'>
+    <value>Inmatningsfält för företagsnamnssökning</value>
+  </data>
+  <data name='search.ariaLabel.orgNumberInput'>
+    <value>Inmatningsfält för organisationsnummersökning</value>
+  </data>
+  <data name='search.ariaLabel.industryInput'>
+    <value>Inmatningsfält för branschkodssökning</value>
+  </data>
+  <data name='search.ariaLabel.searchButton'>
+    <value>Sök efter företag</value>
+  </data>
+  <data name='search.ariaLabel.searchByName'>
+    <value>Sök efter företagsnamn</value>
+  </data>
+  <data name='search.ariaLabel.searchByOrgNumber'>
+    <value>Sök efter organisationsnummer</value>
+  </data>
+  <data name='search.ariaLabel.searchByIndustry'>
+    <value>Sök efter branschkod</value>
+  </data>
+  <data name='search.ariaLabel.searchBrregButton'>
+    <value>Sök i Norska företagsregistret</value>
+  </data>
+  <data name='search.ariaLabel.moreSearchOptions'>
+    <value>Fler sökalternativ</value>
+  </data>
+  <data name='search.ariaLabel.changeSearchType'>
+    <value>Ändra söktyp</value>
+  </data>
+  <data name='search.menu.searchByCompanyName'>
+    <value>Sök efter företagsnamn</value>
+  </data>
+  <data name='search.menu.searchByOrgNumber'>
+    <value>Sök efter organisationsnummer</value>
+  </data>
+  <data name='search.menu.searchByIndustry'>
+    <value>Sök efter bransch</value>
+  </data>
+  <data name='search.menu.searchBy'>
+    <value>Sök efter</value>
+  </data>
+
+  <!-- Företagsval -->
+  <data name='company.selectCompany'>
+    <value>Välj företag:</value>
+  </data>
+  <data name='company.dropdown.placeholder.searching'>
+    <value>Söker...</value>
+  </data>
+  <data name='company.dropdown.placeholder.noCompanies'>
+    <value>Inga företag hittades - sök först</value>
+  </data>
+  <data name='company.dropdown.placeholder.selectCompany'>
+    <value>Välj ett företag</value>
+  </data>
+  <data name='company.dropdown.placeholder.disabled'>
+    <value>Formuläret är inaktiverat</value>
+  </data>
+  <data name='company.dropdown.ariaLabel'>
+    <value>Välj företag från sökresultat</value>
+  </data>
+  <data name='company.dropdown.enterstreetaddress'>
+    <value>Ange gatuadress</value>
+  </data>
+
+  <!-- FORMULÄRTERMINOLOGI -->
+  <!-- ============================================ -->
+  <!-- Formuläretiketter och avsnitt -->
+  <data name='form.labels.companyName'>
+    <value>Företagsnamn</value>
+  </data>
+  <data name='form.labels.organizationNumber'>
+    <value>Organisationsnummer</value>
+  </data>
+  <data name='form.labels.streetAddress'>
+    <value>Gatuadress</value>
+  </data>
+  <data name='form.labels.postalCode'>
+    <value>Postnummer</value>
+  </data>
+  <data name='form.labels.city'>
+    <value>Stad</value>
+  </data>
+  <data name='form.labels.registrationDate'>
+    <value>Registreringsdatum</value>
+  </data>
+  <data name='form.sections.companyInformation'>
+    <value>Företagsinformation</value>
+  </data>
+  <data name='form.sections.businessAddress'>
+    <value>Företagsadress</value>
+  </data>
+  <data name='form.sections.registrationDetails'>
+    <value>Registreringsuppgifter</value>
+  </data>
+  <data name='form.sections.postnumber'>
+    <value>Postnummer</value>
+  </data>
+  <data name='form.sections.cityname'>
+    <value>Stadsnamn</value>
+  </data>
+  <data name='form.sections.selectregistrationdate'>
+    <value>Välj registreringsdatum</value>
+  </data>
+  <data name='form.sections.selectcompregistrationdate'>
+    <value>Välj företagsregistreringsdatum</value>
+  </data>
+  <data name='form.sections.industrycode'>
+    <value>Branschkod</value>
+  </data>
+
+  <!-- DIALOGÅTGÄRDER OCH KNAPPAR -->
+  <!-- ============================================ -->
+  <!-- Dialogåtgärder -->
+  <data name='dialog.cancel'>
+    <value>Avbryt</value>
+  </data>
+  <data name='dialog.accept'>
+    <value>Acceptera</value>
+  </data>
+  <data name='dialog.processing'>
+    <value>Bearbetar...</value>
+  </data>
+  <data name='dialog.ariaLabel.cancel'>
+    <value>Avbryt och stäng dialog</value>
+  </data>
+  <data name='dialog.ariaLabel.accept'>
+    <value>Acceptera vald företagsinformation</value>
+  </data>
+  <data name='dialog.ariaLabel.clear'>
+    <value>Rensa</value>
+  </data>
+
+  <!-- VISARE OCH EXPORT -->
+  <!-- ============================================ -->
+  <!-- JSON-visare -->
+  <data name='json.title'>
+    <value>Företagsdata</value>
+  </data>
+  <data name='json.viewButton'>
+    <value>Visa JSON</value>
+  </data>
+  <data name='json.viewAriaLabel'>
+    <value>Visa företagsdata som JSON</value>
+  </data>
+  <data name='json.copyButton'>
+    <value>Kopiera JSON</value>
+  </data>
+  <data name='json.closeButton'>
+    <value>Stäng</value>
+  </data>
+  <data name='json.noCompanySelected'>
+    <value>Inget företag valt</value>
+  </data>
+  <data name='json.copySuccess'>
+    <value>JSON kopierat</value>
+  </data>
+  <data name='json.copySuccessDescription'>
+    <value>Företagsdata har kopierats till urklipp</value>
+  </data>
+  <data name='json.copyFailed'>
+    <value>Kopiering misslyckades</value>
+  </data>
+  <data name='json.copyFailedDescription'>
+    <value>Misslyckades med att kopiera JSON till urklipp</value>
+  </data>
+
+  <!-- Excel-export -->
+  <data name='excel.button'>
+    <value>Exportera Excel</value>
+  </data>
+  <data name='excel.ariaLabel'>
+    <value>Exportera företagsdata till Excel</value>
+  </data>
+
+  <!-- Kartvisare -->
+  <data name='map.viewButton'>
+    <value>Visa Karta</value>
+  </data>
+  <data name='map.viewAriaLabel'>
+    <value>Visa företagsadress på karta</value>
+  </data>
+  <data name='map.title'>
+    <value>Företagsplats</value>
+  </data>
+  <data name='map.companyAddress'>
+    <value>Företagsadress:</value>
+  </data>
+  <data name='map.pinnedAddress.header'>
+    <value>Markerad adress</value>
+  </data>
+  <data name='map.pinnedAddress.address'>
+    <value>Adress:</value>
+  </data>
+  <data name='map.pinnedAddress.postalCode'>
+    <value>Postnummer:</value>
+  </data>
+  <data name='map.pinnedAddress.city'>
+    <value>Stad:</value>
+  </data>
+  <data name='map.pinnedAddress.usePinnedButton'>
+    <value>Använd markerad adress</value>
+  </data>
+  <data name='map.pinnedAddress.closeAriaLabel'>
+    <value>Stäng markerad adress</value>
+  </data>
+  <data name='map.instructions.text'>
+    <value>Klicka var som helst på kartan för att markera en ny adress</value>
+  </data>
+  <data name='map.instructions.closeAriaLabel'>
+    <value>Stäng kartinstruktioner</value>
+  </data>
+  <data name='map.addressNotFound.text'>
+    <value>Adressen hittades inte på kartan. Du kan fortfarande klicka för att markera en plats.</value>
+  </data>
+  <data name='map.addressNotFound.closeAriaLabel'>
+    <value>Stäng meddelande om att adressen inte hittades</value>
+  </data>
+  <data name='map.closeButton'>
+    <value>Stäng</value>
+  </data>
+  <data name='map.pinnedlocation'>
+    <value>Markerad plats</value>
+  </data>
+
+  <!-- MEDDELANDEN OCH NOTIFIKATIONER -->
+  <!-- ============================================ -->
+  <!-- Felmeddelanden -->
+  <data name='errors.title'>
+    <value>Fel</value>
+  </data>
+  <data name='errors.searchFailed'>
+    <value>Sökningen misslyckades</value>
+  </data>
+  <data name='errors.searchError'>
+    <value>Sökfel</value>
+  </data>
+  <data name='errors.noResultsOrgNumber'>
+    <value>Organisationsnummer hittades inte</value>
+  </data>
+  <data name='errors.noResultsIndustry'>
+    <value>Inga företag hittades för denna branschkod</value>
+  </data>
+  <data name='errors.noResultsName'>
+    <value>Inga företag hittades med det namnet</value>
+  </data>
+  <data name='errors.noResultsIndustryDetailed'>
+    <value>Inga företag hittades för denna branschkod. Prova en annan kod.</value>
+  </data>
+  <data name='errors.noResultsNameDetailed'>
+    <value>Inga företag hittades. Prova en annan sökterm.</value>
+  </data>
+  <data name='errors.serviceUnavailable'>
+    <value>Brønnøysundregistrene-tjänsten är för närvarande otillgänglig</value>
+  </data>
+  <data name='errors.fetchError'>
+    <value>Fel vid hämtning av företagsdata</value>
+  </data>
+  <data name='errors.selectCompanyFirst'>
+    <value>Välj ett företag först</value>
+  </data>
+  <data name='errors.enterSearchTerm'>
+    <value>Ange en sökterm</value>
+  </data>
+  <data name='errors.searchFailedStatus'>
+    <value>Sökningen misslyckades med status:</value>
+  </data>
+  <data name='errors.noresults'>
+    <value>Inga resultat</value>
+  </data>
+  <data name='errors.serviceunav'>
+    <value>Tjänsten otillgänglig</value>
+  </data>
+
+  <!-- Framgångsmeddelanden -->
+  <data name='success.title'>
+    <value>Framgång</value>
+  </data>
+  <data name='success.searchSuccessful'>
+    <value>Sökningen lyckades</value>
+  </data>
+  <data name='success.companySelected'>
+    <value>Företag valt</value>
+  </data>
+  <data name='success.addressSelected'>
+    <value>Adress vald</value>
+  </data>
+  <data name='success.addressApplied'>
+    <value>Kartadressen har tillämpats på formuläret</value>
+  </data>
+  <data name='success.companyAccepted'>
+    <value>Företagsinformation accepterad framgångsrikt!</value>
+  </data>
+  <data name='success.foundCompany'>
+    <value>Företag hittat:</value>
+  </data>
+  <data name='success.foundCompanies'>
+    <value>företag</value>
+  </data>
+  <data name='success.foundCompaniesInIndustry'>
+    <value>företag i denna bransch</value>
+  </data>
+  <data name='success.found'>
+    <value>Hittat</value>
+  </data>
+  <data name='success.selected'>
+    <value>Valt:</value>
+  </data>
+  <data name='success.formCleared'>
+    <value>Företagsinformationen har återställts</value>
+  </data>
+
+  <!-- Laddningstillstånd -->
+  <data name='loading.searchingByName'>
+    <value>Söker efter företagsnamn...</value>
+  </data>
+  <data name='loading.searchingByOrgNumber'>
+    <value>Söker efter organisationsnummer...</value>
+  </data>
+  <data name='loading.searchingByIndustry'>
+    <value>Söker efter branschkod...</value>
+  </data>
+  <data name='loading.lookinguporgs'>
+    <value>Söker efter organisation...</value>
+  </data>
+  <data name='loading.searchcompbyindustry'>
+    <value>Söker efter företag per bransch...</value>
+  </data>
+  <data name='loading.searchforcomps'>
+    <value>Söker efter företag...</value>
+  </data>
+
+  <!-- TITLAR OCH RUBRIKER -->
+  <!-- ============================================ -->
+  <!-- Sidtitlar och rubriker -->
+  <data name='titles.main'>
+    <value>Norska företagsregistersökning</value>
+  </data>
+  <data name='titles.buttonModeExample'>
+    <value>Knappläge exempel</value>
+  </data>
+  <data name='titles.formModeExample'>
+    <value>Formulärläge exempel</value>
+  </data>
+  <data name='titles.webLightButton'>
+    <value>Web Light-knapp</value>
+  </data>
+  <data name='titles.webLightForm'>
+    <value>Web Light-formulär</value>
+  </data>
+
+  <!-- Months -->
+  <data name='date.month.january'>
+    <value>Januari</value>
+  </data>
+  <data name='date.month.february'>
+    <value>Februari</value>
+  </data>
+  <data name='date.month.march'>
+    <value>Mars</value>
+  </data>
+  <data name='date.month.april'>
+    <value>April</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Maj</value>
+  </data>
+  <data name='date.month.june'>
+    <value>Juni</value>
+  </data>
+  <data name='date.month.july'>
+    <value>Juli</value>
+  </data>
+  <data name='date.month.august'>
+    <value>Augusti</value>
+  </data>
+  <data name='date.month.september'>
+    <value>September</value>
+  </data>
+  <data name='date.month.october'>
+    <value>Oktober</value>
+  </data>
+  <data name='date.month.november'>
+    <value>November</value>
+  </data>
+  <data name='date.month.december'>
+    <value>December</value>
+  </data>
+  <data name='date.month.jan'>
+    <value>Jan</value>
+  </data>
+  <data name='date.month.feb'>
+    <value>Feb</value>
+  </data>
+  <data name='date.month.mar'>
+    <value>Mar</value>
+  </data>
+  <data name='date.month.apr'>
+    <value>Apr</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Maj</value>
+  </data>
+  <data name='date.month.jun'>
+    <value>Jun</value>
+  </data>
+  <data name='date.month.jul'>
+    <value>Jul</value>
+  </data>
+  <data name='date.month.aug'>
+    <value>Aug</value>
+  </data>
+  <data name='date.month.sep'>
+    <value>Sep</value>
+  </data>
+  <data name='date.month.oct'>
+    <value>Okt</value>
+  </data>
+  <data name='date.month.nov'>
+    <value>Nov</value>
+  </data>
+  <data name='date.month.dec'>
+    <value>Dec</value>
+  </data>
+
+  <!-- Days of the week -->
+  <data name='date.day.monday'>
+    <value>Måndag</value>
+  </data>
+  <data name='date.day.tuesday'>
+    <value>Tisdag</value>
+  </data>
+  <data name='date.day.wednesday'>
+    <value>Onsdag</value>
+  </data>
+  <data name='date.day.thursday'>
+    <value>Torsdag</value>
+  </data>
+  <data name='date.day.friday'>
+    <value>Fredag</value>
+  </data>
+  <data name='date.day.saturday'>
+    <value>Lördag</value>
+  </data>
+  <data name='date.day.sunday'>
+    <value>Söndag</value>
+  </data>
+  <data name='date.day.mon'>
+    <value>Mån</value>
+  </data>
+  <data name='date.day.tue'>
+    <value>Tis</value>
+  </data>
+  <data name='date.day.wed'>
+    <value>Ons</value>
+  </data>
+  <data name='date.day.thu'>
+    <value>Tor</value>
+  </data>
+  <data name='date.day.fri'>
+    <value>Fre</value>
+  </data>
+  <data name='date.day.sat'>
+    <value>Lör</value>
+  </data>
+  <data name='date.day.sun'>
+    <value>Sön</value>
+  </data>
+
+  <!-- Date picker -->
+  <data name='goToToday'>
+    <value>Gå till idag</value>
+  </data>
+  <data name='prevMonthAriaLabel'>
+    <value>Föregående månad</value>
+  </data>
+  <data name='nextMonthAriaLabel'>
+    <value>Nästa månad</value>
+  </data>
+  <data name='prevYearAriaLabel'>
+    <value>Föregående år</value>
+  </data>
+  <data name='nextYearAriaLabel'>
+    <value>Nästa år</value>
+  </data>
+  <data name='closeButtonAriaLabel'>
+    <value>Stäng kalender</value>
+  </data>
+  <data name='monthPickerHeaderAriaLabel'>
+    <value>{0}, välj för att ändra år</value>
+  </data>
+  <data name='yearPickerHeaderAriaLabel'>
+    <value>{0}, välj för att ändra månad</value>
+  </data>
+
+  <!-- Beskrivningar -->
+  <data name='descriptions.mainSubtitle'>
+    <value>Formulär- och knappläge exempel med Web Light-tema</value>
+  </data>
+</root>

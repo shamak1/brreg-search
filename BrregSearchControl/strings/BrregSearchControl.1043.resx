@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name='resmimetype'>
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name='version'>
+    <value>2.0</value>
+  </resheader>
+  <resheader name='reader'>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name='writer'>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- ZOEKEN EN BEDRIJFSSELECTIE -->
+  <!-- ============================================ -->
+  <!-- Zoekfunctionaliteit -->
+  <data name='search.placeholder.companyName'>
+    <value>Voer bedrijfsnaam in...</value>
+  </data>
+  <data name='search.placeholder.orgNumber'>
+    <value>Voer 9-cijferig organisatienummer in...</value>
+  </data>
+  <data name='search.placeholder.industry'>
+    <value>Voer branchecode in (bijv. 45, 45.1, 45.11)...</value>
+  </data>
+  <data name='search.placeholder.disabled'>
+    <value>Formulier is uitgeschakeld</value>
+  </data>
+  <data name='search.button.search'>
+    <value>Zoeken</value>
+  </data>
+  <data name='search.button.searching'>
+    <value>Zoeken...</value>
+  </data>
+  <data name='search.button.searchByName'>
+    <value>Zoeken op naam</value>
+  </data>
+  <data name='search.button.searchByOrgNumber'>
+    <value>Zoeken op org.nr.</value>
+  </data>
+  <data name='search.button.searchByIndustry'>
+    <value>Zoeken op branche</value>
+  </data>
+  <data name='search.button.searchBrreg'>
+    <value>Zoeken in Brreg</value>
+  </data>
+  <data name='search.ariaLabel.companyNameInput'>
+    <value>Bedrijfsnaam zoekinvoer</value>
+  </data>
+  <data name='search.ariaLabel.orgNumberInput'>
+    <value>Organisatienummer zoekinvoer</value>
+  </data>
+  <data name='search.ariaLabel.industryInput'>
+    <value>Branchecode zoekinvoer</value>
+  </data>
+  <data name='search.ariaLabel.searchButton'>
+    <value>Zoeken naar bedrijven</value>
+  </data>
+  <data name='search.ariaLabel.searchByName'>
+    <value>Zoeken op bedrijfsnaam</value>
+  </data>
+  <data name='search.ariaLabel.searchByOrgNumber'>
+    <value>Zoeken op organisatienummer</value>
+  </data>
+  <data name='search.ariaLabel.searchByIndustry'>
+    <value>Zoeken op branchecode</value>
+  </data>
+  <data name='search.ariaLabel.searchBrregButton'>
+    <value>Zoeken in Noors Bedrijfsregister</value>
+  </data>
+  <data name='search.ariaLabel.moreSearchOptions'>
+    <value>Meer zoekopties</value>
+  </data>
+  <data name='search.ariaLabel.changeSearchType'>
+    <value>Zoektype wijzigen</value>
+  </data>
+  <data name='search.menu.searchByCompanyName'>
+    <value>Zoeken op bedrijfsnaam</value>
+  </data>
+  <data name='search.menu.searchByOrgNumber'>
+    <value>Zoeken op organisatienummer</value>
+  </data>
+  <data name='search.menu.searchByIndustry'>
+    <value>Zoeken op branche</value>
+  </data>
+  <data name='search.menu.searchBy'>
+    <value>Zoeken op</value>
+  </data>
+
+  <!-- Bedrijfsselectie -->
+  <data name='company.selectCompany'>
+    <value>Selecteer bedrijf:</value>
+  </data>
+  <data name='company.dropdown.placeholder.searching'>
+    <value>Zoeken...</value>
+  </data>
+  <data name='company.dropdown.placeholder.noCompanies'>
+    <value>Geen bedrijven gevonden - zoek eerst</value>
+  </data>
+  <data name='company.dropdown.placeholder.selectCompany'>
+    <value>Selecteer een bedrijf</value>
+  </data>
+  <data name='company.dropdown.placeholder.disabled'>
+    <value>Formulier is uitgeschakeld</value>
+  </data>
+  <data name='company.dropdown.ariaLabel'>
+    <value>Bedrijf selecteren uit zoekresultaten</value>
+  </data>
+  <data name='company.dropdown.enterstreetaddress'>
+    <value>Voer straatnaam in</value>
+  </data>
+
+  <!-- FORMULIER VERTALINGEN -->
+  <!-- ============================================ -->
+  <!-- Formulierlabels en secties -->
+  <data name='form.labels.companyName'>
+    <value>Bedrijfsnaam</value>
+  </data>
+  <data name='form.labels.organizationNumber'>
+    <value>Organisatienummer</value>
+  </data>
+  <data name='form.labels.streetAddress'>
+    <value>Straatnaam</value>
+  </data>
+  <data name='form.labels.postalCode'>
+    <value>Postcode</value>
+  </data>
+  <data name='form.labels.city'>
+    <value>Plaats</value>
+  </data>
+  <data name='form.labels.registrationDate'>
+    <value>Registratiedatum</value>
+  </data>
+  <data name='form.sections.companyInformation'>
+    <value>Bedrijfsinformatie</value>
+  </data>
+  <data name='form.sections.businessAddress'>
+    <value>Bedrijfsadres</value>
+  </data>
+  <data name='form.sections.registrationDetails'>
+    <value>Registratiegegevens</value>
+  </data>
+  <data name='form.sections.postnumber'>
+    <value>Postnummer</value>
+  </data>
+  <data name='form.sections.cityname'>
+    <value>Plaatsnaam</value>
+  </data>
+  <data name='form.sections.selectregistrationdate'>
+    <value>Selecteer registratiedatum</value>
+  </data>
+  <data name='form.sections.selectcompregistrationdate'>
+    <value>Selecteer bedrijfsregistratiedatum</value>
+  </data>
+  <data name='form.sections.industrycode'>
+    <value>branchecode</value>
+  </data>
+
+  <!-- DIALOOG ACTIES EN KNOPPEN -->
+  <!-- ============================================ -->
+  <!-- Dialoog acties -->
+  <data name='dialog.cancel'>
+    <value>Annuleren</value>
+  </data>
+  <data name='dialog.accept'>
+    <value>Accepteren</value>
+  </data>
+  <data name='dialog.processing'>
+    <value>Verwerken...</value>
+  </data>
+  <data name='dialog.ariaLabel.cancel'>
+    <value>Annuleren en dialoog sluiten</value>
+  </data>
+  <data name='dialog.ariaLabel.accept'>
+    <value>Geselecteerde bedrijfsinformatie accepteren</value>
+  </data>
+  <data name='dialog.ariaLabel.clear'>
+    <value>Wissen</value>
+  </data>
+
+  <!-- VIEWERS EN EXPORTS -->
+  <!-- ============================================ -->
+  <!-- JSON viewer -->
+  <data name='json.title'>
+    <value>Bedrijfsgegevens</value>
+  </data>
+  <data name='json.viewButton'>
+    <value>JSON bekijken</value>
+  </data>
+  <data name='json.viewAriaLabel'>
+    <value>Bedrijfsgegevens als JSON bekijken</value>
+  </data>
+  <data name='json.copyButton'>
+    <value>JSON kopiëren</value>
+  </data>
+  <data name='json.closeButton'>
+    <value>Sluiten</value>
+  </data>
+  <data name='json.noCompanySelected'>
+    <value>Geen bedrijf geselecteerd</value>
+  </data>
+  <data name='json.copySuccess'>
+    <value>JSON gekopieerd</value>
+  </data>
+  <data name='json.copySuccessDescription'>
+    <value>Bedrijfsgegevens zijn naar klembord gekopieerd</value>
+  </data>
+  <data name='json.copyFailed'>
+    <value>Kopiëren mislukt</value>
+  </data>
+  <data name='json.copyFailedDescription'>
+    <value>JSON kopiëren naar klembord mislukt</value>
+  </data>
+
+  <!-- Excel export -->
+  <data name='excel.button'>
+    <value>Excel exporteren</value>
+  </data>
+  <data name='excel.ariaLabel'>
+    <value>Bedrijfsgegevens naar Excel exporteren</value>
+  </data>
+
+  <!-- Kaart viewer -->
+  <data name='map.viewButton'>
+    <value>Kaart Bekijken</value>
+  </data>
+  <data name='map.viewAriaLabel'>
+    <value>Bedrijfsadres op kaart bekijken</value>
+  </data>
+  <data name='map.title'>
+    <value>Bedrijfslocatie</value>
+  </data>
+  <data name='map.companyAddress'>
+    <value>Bedrijfsadres:</value>
+  </data>
+  <data name='map.pinnedAddress.header'>
+    <value>Vastgeprikt adres</value>
+  </data>
+  <data name='map.pinnedAddress.address'>
+    <value>Adres:</value>
+  </data>
+  <data name='map.pinnedAddress.postalCode'>
+    <value>Postcode:</value>
+  </data>
+  <data name='map.pinnedAddress.city'>
+    <value>Plaats:</value>
+  </data>
+  <data name='map.pinnedAddress.usePinnedButton'>
+    <value>Vastgeprikt adres gebruiken</value>
+  </data>
+  <data name='map.pinnedAddress.closeAriaLabel'>
+    <value>Vastgeprikt adres sluiten</value>
+  </data>
+  <data name='map.instructions.text'>
+    <value>Klik ergens op de kaart om een nieuw adres vast te prikken</value>
+  </data>
+  <data name='map.instructions.closeAriaLabel'>
+    <value>Kaartinstructies sluiten</value>
+  </data>
+  <data name='map.addressNotFound.text'>
+    <value>Adres niet gevonden op kaart. U kunt nog steeds klikken om een locatie vast te prikken.</value>
+  </data>
+  <data name='map.addressNotFound.closeAriaLabel'>
+    <value>Adres niet gevonden melding sluiten</value>
+  </data>
+  <data name='map.closeButton'>
+    <value>Sluiten</value>
+  </data>
+  <data name='map.pinnedlocation'>
+    <value>Vastgeprikte locatie</value>
+  </data>
+
+  <!-- BERICHTEN EN MELDINGEN -->
+  <!-- ============================================ -->
+  <!-- Foutmeldingen -->
+  <data name='errors.title'>
+    <value>Fout</value>
+  </data>
+  <data name='errors.searchFailed'>
+    <value>Zoeken mislukt</value>
+  </data>
+  <data name='errors.searchError'>
+    <value>Zoekfout</value>
+  </data>
+  <data name='errors.noResultsOrgNumber'>
+    <value>Organisatienummer niet gevonden</value>
+  </data>
+  <data name='errors.noResultsIndustry'>
+    <value>Geen bedrijven gevonden voor deze branchecode</value>
+  </data>
+  <data name='errors.noResultsName'>
+    <value>Geen bedrijven gevonden met die naam</value>
+  </data>
+  <data name='errors.noResultsIndustryDetailed'>
+    <value>Geen bedrijven gevonden voor deze branchecode. Probeer een andere code.</value>
+  </data>
+  <data name='errors.noResultsNameDetailed'>
+    <value>Geen bedrijven gevonden. Probeer een andere zoekterm.</value>
+  </data>
+  <data name='errors.serviceUnavailable'>
+    <value>Brønnøysundregistrene service is momenteel niet beschikbaar</value>
+  </data>
+  <data name='errors.fetchError'>
+    <value>Fout bij ophalen bedrijfsgegevens</value>
+  </data>
+  <data name='errors.selectCompanyFirst'>
+    <value>Selecteer eerst een bedrijf</value>
+  </data>
+  <data name='errors.enterSearchTerm'>
+    <value>Voer een zoekterm in</value>
+  </data>
+  <data name='errors.searchFailedStatus'>
+    <value>Zoeken mislukt met status:</value>
+  </data>
+  <data name='errors.noresults'>
+    <value>Geen resultaten</value>
+  </data>
+  <data name='errors.serviceunav'>
+    <value>Service niet beschikbaar</value>
+  </data>
+
+  <!-- Succesmeldingen -->
+  <data name='success.title'>
+    <value>Succes</value>
+  </data>
+  <data name='success.searchSuccessful'>
+    <value>Zoeken geslaagd</value>
+  </data>
+  <data name='success.companySelected'>
+    <value>Bedrijf geselecteerd</value>
+  </data>
+  <data name='success.addressSelected'>
+    <value>Adres geselecteerd</value>
+  </data>
+  <data name='success.addressApplied'>
+    <value>Kaartadres is toegepast op het formulier</value>
+  </data>
+  <data name='success.companyAccepted'>
+    <value>Bedrijfsinformatie succesvol geaccepteerd!</value>
+  </data>
+  <data name='success.foundCompany'>
+    <value>Bedrijf gevonden:</value>
+  </data>
+  <data name='success.foundCompanies'>
+    <value>bedrijven</value>
+  </data>
+  <data name='success.foundCompaniesInIndustry'>
+    <value>bedrijven in deze branche</value>
+  </data>
+  <data name='success.found'>
+    <value>Gevonden</value>
+  </data>
+  <data name='success.selected'>
+    <value>Geselecteerd:</value>
+  </data>
+  <data name='success.formCleared'>
+    <value>Bedrijfsgegevens zijn opnieuw ingesteld</value>
+  </data>
+
+  <!-- Laadstatussen -->
+  <data name='loading.searchingByName'>
+    <value>Zoeken op bedrijfsnaam...</value>
+  </data>
+  <data name='loading.searchingByOrgNumber'>
+    <value>Zoeken op organisatienummer...</value>
+  </data>
+  <data name='loading.searchingByIndustry'>
+    <value>Zoeken op branchecode...</value>
+  </data>
+  <data name='loading.lookinguporgs'>
+    <value>Organisatie opzoeken...</value>
+  </data>
+  <data name='loading.searchcompbyindustry'>
+    <value>Bedrijven zoeken op branche...</value>
+  </data>
+  <data name='loading.searchforcomps'>
+    <value>Zoeken naar bedrijven...</value>
+  </data>
+
+  <!-- TITELS EN HEADERS -->
+  <!-- ============================================ -->
+  <!-- Paginatitels en headers -->
+  <data name='titles.main'>
+    <value>Noors Bedrijfsregister Zoeken</value>
+  </data>
+  <data name='titles.buttonModeExample'>
+    <value>Knopmodus voorbeeld</value>
+  </data>
+  <data name='titles.formModeExample'>
+    <value>Formuliermodus voorbeeld</value>
+  </data>
+  <data name='titles.webLightButton'>
+    <value>Web Light knop</value>
+  </data>
+  <data name='titles.webLightForm'>
+    <value>Web Light formulier</value>
+  </data>
+
+<!-- Months -->
+  <data name='date.month.january'>
+    <value>Januari</value>
+  </data>
+  <data name='date.month.february'>
+    <value>Februari</value>
+  </data>
+  <data name='date.month.march'>
+    <value>Maart</value>
+  </data>
+  <data name='date.month.april'>
+    <value>April</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Mei</value>
+  </data>
+  <data name='date.month.june'>
+    <value>Juni</value>
+  </data>
+  <data name='date.month.july'>
+    <value>Juli</value>
+  </data>
+  <data name='date.month.august'>
+    <value>Augustus</value>
+  </data>
+  <data name='date.month.september'>
+    <value>September</value>
+  </data>
+  <data name='date.month.october'>
+    <value>Oktober</value>
+  </data>
+  <data name='date.month.november'>
+    <value>November</value>
+  </data>
+  <data name='date.month.december'>
+    <value>December</value>
+  </data>
+  <data name='date.month.jan'>
+    <value>Jan</value>
+  </data>
+  <data name='date.month.feb'>
+    <value>Feb</value>
+  </data>
+  <data name='date.month.mar'>
+    <value>Mrt</value>
+  </data>
+  <data name='date.month.apr'>
+    <value>Apr</value>
+  </data>
+  <data name='date.month.may'>
+    <value>Mei</value>
+  </data>
+  <data name='date.month.jun'>
+    <value>Jun</value>
+  </data>
+  <data name='date.month.jul'>
+    <value>Jul</value>
+  </data>
+  <data name='date.month.aug'>
+    <value>Aug</value>
+  </data>
+  <data name='date.month.sep'>
+    <value>Sep</value>
+  </data>
+  <data name='date.month.oct'>
+    <value>Okt</value>
+  </data>
+  <data name='date.month.nov'>
+    <value>Nov</value>
+  </data>
+  <data name='date.month.dec'>
+    <value>Dec</value>
+  </data>
+
+  <!-- Days of the week -->
+  <data name='date.day.monday'>
+    <value>Maandag</value>
+  </data>
+  <data name='date.day.tuesday'>
+    <value>Dinsdag</value>
+  </data>
+  <data name='date.day.wednesday'>
+    <value>Woensdag</value>
+  </data>
+  <data name='date.day.thursday'>
+    <value>Donderdag</value>
+  </data>
+  <data name='date.day.friday'>
+    <value>Vrijdag</value>
+  </data>
+  <data name='date.day.saturday'>
+    <value>Zaterdag</value>
+  </data>
+  <data name='date.day.sunday'>
+    <value>Zondag</value>
+  </data>
+  <data name='date.day.mon'>
+    <value>Ma</value>
+  </data>
+  <data name='date.day.tue'>
+    <value>Di</value>
+  </data>
+  <data name='date.day.wed'>
+    <value>Wo</value>
+  </data>
+  <data name='date.day.thu'>
+    <value>Do</value>
+  </data>
+  <data name='date.day.fri'>
+    <value>Vr</value>
+  </data>
+  <data name='date.day.sat'>
+    <value>Za</value>
+  </data>
+  <data name='date.day.sun'>
+    <value>Zo</value>
+  </data>
+
+  <!-- Date picker -->
+  <data name='goToToday'>
+    <value>Ga naar vandaag</value>
+  </data>
+  <data name='prevMonthAriaLabel'>
+    <value>Vorige maand</value>
+  </data>
+  <data name='nextMonthAriaLabel'>
+    <value>Volgende maand</value>
+  </data>
+  <data name='prevYearAriaLabel'>
+    <value>Vorig jaar</value>
+  </data>
+  <data name='nextYearAriaLabel'>
+    <value>Volgend jaar</value>
+  </data>
+  <data name='closeButtonAriaLabel'>
+    <value>Kalender sluiten</value>
+  </data>
+  <data name='monthPickerHeaderAriaLabel'>
+    <value>{0}, selecteer om jaar te wijzigen</value>
+  </data>
+  <data name='yearPickerHeaderAriaLabel'>
+    <value>{0}, selecteer om maand te wijzigen</value>
+  </data>
+
+  <!-- Beschrijvingen -->
+  <data name='descriptions.mainSubtitle'>
+    <value>Formulier- en knopmodus voorbeelden met web light thema</value>
+  </data>
+</root>

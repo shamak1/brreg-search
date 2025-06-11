@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="shamak" constructor="BrregSearchControl" version="0.0.1" display-name-key="Brreg Search" description-key="Brreg Search description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name='placeholder' display-name-key='Placeholder Input' description-key='The placeholder input to which the control is assigned.' of-type='SingleLine.Text' usage='bound' required='true' />
+    <property name="mode" display-name-key="Mode" description-key="Display mode (button or form)." of-type="Enum" usage="input" required="false" default-value="button">
+      <value name="button" display-name-key="Button Mode">button</value>
+      <value name="form" display-name-key="Form Mode">form</value>
+    </property>
+    <property name="theme" display-name-key="Theme" description-key="UI Theme." of-type="Enum" usage="input" required="false" default-value="webLight">
+      <value name="webLight" display-name-key="Web Light Theme.">webLight</value>
+      <value name="webDark" display-name-key="Web Dark Theme.">webDark</value>
+      <value name="teamsLight" display-name-key="Teams Light Theme.">teamsLight</value>
+      <value name="teamsDark" display-name-key="Teams Dark Theme.">teamsDark</value>
+      <value name="teamsHighContrast" display-name-key="Teams High Contrast Theme.">teamsHighContrast</value>
+    </property>
+    <property name="pageSize" display-name-key="Page Size" description-key="Number of comapnies to return when searching." of-type="Whole.None" usage="input" required="false" default-value="10" />
+    <property name="showTitle" display-name-key="Show Title" description-key="Show the title of the form or dialog." of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showViewJsonButton" display-name-key="Show JSON Viewer" description-key="Show JSON viewer button." of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showViewMapButton" display-name-key="Show Map Viewer" description-key="Show map viewer button." of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showExportExcelButton" display-name-key="Show Excel Export" description-key="Show Excel export button." of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="enableAdvancedSearch" display-name-key="Enable Advanced Search" description-key="Enable advanced search options." of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    
+    <!-- Address properties -->
+    <property name="organisasjonsnummer" display-name-key="Organization Number" description-key="Company organization number." of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="navn" display-name-key="Company Name" description-key="Company name." of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="adress" display-name-key="Address" description-key="Company address." of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="postnummer" display-name-key="Postal Code" description-key="Postal code." of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="poststed" display-name-key="City" description-key="City name." of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="registrationDate" display-name-key="Registration Date" description-key="Company registration date." of-type="DateAndTime.DateOnly" usage="bound" required="false" />
+    <property name="email" display-name-key="Email" description-key="Company email." of-type="SingleLine.Email" usage="bound" required="false" />
+    <property name="phone" display-name-key="Phone" description-key="Company phone." of-type="SingleLine.Phone" usage="bound" required="false" />
+    <property name="website" display-name-key="Website" description-key="Company website." of-type="SingleLine.URL" usage="bound" required="false" />
+    <property name="lat" display-name-key="Latitude" description-key="Location latitude." of-type="FP" usage="bound" required="false" />
+    <property name="lng" display-name-key="Longitude" description-key="Location longitude." of-type="FP" usage="bound" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- Norwegian (Bokmål) -->
+      <resx path="strings/BrregSearchControl.1044.resx" version="1.0.0" />
+      <!-- Spanish (Spain - Modern Sort) -->
+      <resx path="strings/BrregSearchControl.3082.resx" version="1.0.0" />
+      <!-- Italian (Italy) -->
+      <resx path="strings/BrregSearchControl.1040.resx" version="1.0.0" />
+      <!-- German (Germany) -->
+      <resx path="strings/BrregSearchControl.1031.resx" version="1.0.0" />
+      <!-- Swedish (Sweden) -->
+      <resx path="strings/BrregSearchControl.1053.resx" version="1.0.0" />
+      <!-- Danish (Denmark) -->
+      <resx path="strings/BrregSearchControl.1030.resx" version="1.0.0" />
+      <!-- Finnish (Finland) -->
+      <resx path="strings/BrregSearchControl.1035.resx" version="1.0.0" />
+      <!-- Polish (Poland) -->
+      <resx path="strings/BrregSearchControl.1045.resx" version="1.0.0" />
+      <!-- Dutch (Netherlands) -->
+      <resx path="strings/BrregSearchControl.1043.resx" version="1.0.0" />
+      <!-- English (United States) -->
+      <resx path="strings/BrregSearchControl.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>
