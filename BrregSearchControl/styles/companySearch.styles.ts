@@ -27,9 +27,6 @@ export const useCompanySearchStyles = makeStyles({
     minWidth: 'fit-content',
     '@media (max-width: 768px)': {
       width: '100%',
-      '& > *': {
-        width: '100%',
-      },
       '& button': {
         width: '100%',
       },
