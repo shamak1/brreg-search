@@ -39,7 +39,9 @@ export class BrregSearchControl implements ComponentFramework.StandardControl<II
         this._mode = context.parameters.mode.raw;
         this._themeType = context.parameters.theme.raw;
         const pageSizeRaw = context.parameters.pageSize.raw;
-        this._pageSize = typeof pageSizeRaw === 'number' && pageSizeRaw > 0 ? pageSizeRaw : 10;
+        this._pageSize = typeof pageSizeRaw === 'number' && pageSizeRaw > 0
+            ? Math.min(pageSizeRaw, 100)
+            : 10; // Added so we don't retrieve too many companies at once.
         this._showTitle = context.parameters.showTitle.raw;
         this._showViewJsonButton = context.parameters.showViewJsonButton.raw;
         this._showViewMapButton = context.parameters.showViewMapButton.raw;
