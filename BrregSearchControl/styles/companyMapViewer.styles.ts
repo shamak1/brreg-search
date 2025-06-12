@@ -113,4 +113,18 @@ export const useCompanyMapViewerStyles = makeStyles({
       backgroundColor: 'rgba(133, 100, 4, 0.1)',
     },
   },
+  mapFooterActionButtons: {
+    gap: '8px',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between'
+  },
+  usePinnedAddressButton: {
+    flex: '1 1 auto',
+    minWidth: 'fit-content'
+  },
+  closeMapButton: {
+    flex: '1 1 auto',
+    minWidth: 'fit-content'
+  }
 });

@@ -273,9 +273,10 @@ const CompanyMapViewer: React.FC<CompanyMapViewerProps> = ({
               )}
             </div>
           </DialogContent>
-          <DialogActions style={{ gap: '8px', flexWrap: 'wrap' }}>
+          <DialogActions className={styles.mapFooterActionButtons}>
             {pinnedAddress && (
               <FluentButton
+                className={styles.usePinnedAddressButton}
                 appearance="primary"
                 icon={<Checkmark24Regular />}
                 onClick={handleUsePinnedAddress}
@@ -283,7 +284,10 @@ const CompanyMapViewer: React.FC<CompanyMapViewerProps> = ({
                 {getString(context, 'map.pinnedAddress.usePinnedButton')}
               </FluentButton>
             )}
-            <FluentButton appearance="secondary" onClick={onClose}>
+            <FluentButton
+              className={styles.closeMapButton}
+              appearance="secondary"
+              onClick={onClose}>
               {getString(context, 'map.closeButton')}
             </FluentButton>
           </DialogActions>
