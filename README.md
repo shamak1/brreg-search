@@ -1,4 +1,4 @@
-![button-mode1](https://github.com/user-attachments/assets/baa2c047-52e2-40ba-a040-54ef91febca1)# Brreg Search PCF Control
+# Brreg Search PCF Control
 ## Overview
 A Power Apps Component Framework (PCF) control that integrates with the Norwegian Brønnøysund Register Centre (Brønnøysundregistrene) API to search and retrieve Norwegian company information.
 It provides integration with the Norwegian business registry, allowing users to search for companies and automatically populate form columns with official company data.
