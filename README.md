@@ -15,13 +15,13 @@ It provides integration with the Norwegian business registry, allowing users to 
 - Registration date
 - Coordinates (latitude/longitude)
 
-🛠️ **Advanced Tools**
+🛠️ **Tools**
 - **Export to Excel:** Download company data in spreadsheet format
 - **View JSON:** Inspect complete API response with copy functionality
 - **Map Integration:** View company location on OpenStreetMap with the option to pin alternative address
 
 🎨 **Display Options** 
-- **Button Mode:** Opens a dialog for company search and selection
+- **Button / Dialog Mode:** Opens a dialog for company search and selection
 - **Form Mode:** Embedded search interface directly in the form
 
 ## Multi-Language Support
@@ -46,7 +46,7 @@ The control can be configured through the Power Apps interface when adding it to
 |:---|:---|:---|:---|:---|
 | `mode` | Enum | Display mode | `"button"` | `"button"`, `"form"` |
 | `theme` | Enum | UI Theme | `"webLight"` | `"webLight"`, `"webDark"`, `"teamsLight"`, `"teamsDark"`, `"teamsHighContrast"` |
-| `pageSize` | Number | Number of companies to return when searching | `10` | Any positive integer |
+| `pageSize` | Number | Number of companies to return when searching | `10` | Any `positive integer` and can not be `higher than 100` |
 | `showTitle` | Boolean | Show the title of the form or dialog | `false` | `true`/`false` |
 | `showViewJsonButton` | Boolean | Show JSON viewer button | `false` | `true`/`false` |
 | `showViewMapButton` | Boolean | Show map viewer button | `false` | `true`/`false` |
@@ -69,23 +69,69 @@ The following properties can be bound to form columns to automatically populate 
 | `lat` | Latitude | Number | Location latitude coordinate | `false` |
 | `lng` | Longitude | Number | Location longitude coordinate | `false` |
 
-## Button Mode
-The control appears as a **search button** that opens a **dialog** when clicked. Perfect for quick lookups during record creation.
+## <ins> Button / Dialog Mode </ins>
+The control appears as a **search button** that opens a **dialog** when clicked. Perfect for quick company searches during record creation.
 
-### Use cases:
+### Use Cases:
 - Quick create forms
 - Lead qualification quick create forms
 
 ![button-mode](https://github.com/user-attachments/assets/03df935e-17ec-4772-a5bf-243b89d1f6f7)
 
-## Form Mode
-The control is **embedded directly** into the form as an integrated search interface. No dialog needed - search and select right on the form.
+## <ins> Form Mode </ins>
+The control is **embedded directly** into the form as an integrated search interface. No dialog needed, search and select right on the form.
 
-### Use cases:
+### Use Cases:
 - Main forms
 - Lead qualification forms
 
 // GIF to be added...
+
+## Installation
+Choose one of the following deployment options:
+
+### Option 1: Managed Solution
+1. Download the 📦 [managed solution](link-to-managed-solution)
+2. Import the solution into your Power Platform environment
+
+### Option 2: Unmanaged Solution
+1. Download the 📦 [unmanaged solution](link-to-unmanaged-solution)
+2. Import the solution into your Power Platform environment
+
+### Option 3: Deploy from Source Code
+Deploy the component directly from the 💻 source code by following these steps:
+
+#### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [Microsoft Power Platform CLI](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/powerapps-cli)
+
+#### Deployment Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shamak1/brreg-search.git
+   cd brreg-search
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Authenticate with your Power Platform environment:
+   ```bash
+   pac auth create --environment "https://your-environment.crm.dynamics.com/"
+   ```
+   > **Note:** Replace `https://your-environment.crm.dynamics.com/` with your actual Power Platform environment URL
+
+4. Push the component to your environment:
+   ```bash
+   pac pcf push --publisher-prefix "YOUR_PREFIX"
+   ```
+   > **Note:** Replace `YOUR_PREFIX` with your organization's publisher prefix (e.g., if your publisher prefix is "contoso", use `--publisher-prefix contoso`)
+  
+
+For detailed guidance on deploying Power Apps Component Framework components, refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/import-custom-controls#deploying-code-components).
+> 🤖 Psst, friendly AI reminder: There are probably other creative ways to install this solution too, I just covered the popular ones. Go find your own adventure!
 
 ## Acknowledgments
 - [Brreg API](https://www.brreg.no/bruke-data-fra-bronnoysundregistrene/apne-data/)
