@@ -139,13 +139,13 @@ Deploy the component directly from the 💻 source code by following these steps
    ```bash
    pac auth create --environment "https://your-environment.crm.dynamics.com/"
    ```
-   > **Note:** Replace `https://your-environment.crm.dynamics.com/` with your actual Power Platform environment URL
+   > Replace `https://your-environment.crm.dynamics.com/` with your actual Power Platform environment URL
 
 4. Push the component to your environment:
    ```bash
    pac pcf push --publisher-prefix "YOUR_PREFIX"
    ```
-   > **Note:** Replace `YOUR_PREFIX` with your organization's publisher prefix (e.g., if your publisher prefix is "contoso", use `--publisher-prefix contoso`)
+   > Replace `YOUR_PREFIX` with your organization's publisher prefix (e.g., if your publisher prefix is "contoso", use `--publisher-prefix contoso`)
   
 For detailed guidance on deploying Power Apps Component Framework components, refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/import-custom-controls#deploying-code-components).
 > 🤖 Psst, friendly AI reminder: There are probably other creative ways to install this solution too, I just covered the popular ones. Go find your own adventure!
