@@ -72,6 +72,15 @@ The following properties can be bound to form columns to automatically populate 
 | `lat` | Latitude | Number | Location latitude coordinate | `false` |
 | `lng` | Longitude | Number | Location longitude coordinate | `false` |
 
+In the example below, we are configuring the control in **Button / Dialog mode** on a **Quick Create form**.
+We're using the Account Name column (though it can be any **Single Line of Text** column). The label is hidden, and the Search Brreg control is added to that column.
+In the configuration panel, we enable the **showViewMapButton** option and map the columns from the API to the desired columns in the Account table.
+
+> [!NOTE]  
+> This control can be used on any table, we're just using `Account` for demo purposes.
+
+![setup](https://github.com/user-attachments/assets/1c9cb695-b504-44f3-a6b8-79ffdc21c058)
+
 ## <ins> Button / Dialog Mode </ins>
 The control appears as a **search button** that opens a **dialog** when clicked. Perfect for quick company searches during record creation.
 
