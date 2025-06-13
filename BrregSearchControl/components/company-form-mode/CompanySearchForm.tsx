@@ -22,9 +22,9 @@ import CompanyForm from '../company/CompanyForm';
 import CompanyJsonViewer from '../json/CompanyJsonViewer';
 import CompanyMapViewer from '../map/CompanyMapViewer';
 import { useCompanySearchFormStyles } from '../../styles/companySearchForm.styles';
+import { useCompanyFormState } from '../../hooks/search-brreg/useCompanyFormState';
 import { useCompanySearchForm } from '../../hooks/useCompanySearchForm';
 import { CompanySearchFormProps } from '../../types/company';
-import { getString } from '../../utils/translationHelper';
 
 const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
   onCompanySelected,
@@ -68,10 +68,10 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
       </Toast>
     );
 
-    dispatchToast(toastElement, {
-      intent,
-      timeout: 1000,
-      position: 'top-end' as const
+    dispatchToast(toastElement, { 
+      intent, 
+      timeout: 1000, 
+      position: 'top-end' as const 
     });
   };
 
@@ -80,29 +80,12 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     selectedCompany,
     searchQuery,
     isSearching,
+    searchType,
+    setSearchQuery,
     setCompanies,
     setSelectedCompany,
-    isJsonDialogOpen,
-    isMapDialogOpen,
-    searchType,
-    name,
-    adress,
-    postnummer,
-    poststed,
-    registrationDate,
-    coordinates,
-    setSearchQuery,
-    setIsJsonDialogOpen,
-    setIsMapDialogOpen,
-    setName,
-    setAdress,
-    setPostnummer,
-    setPoststed,
-    setRegistrationDate,
     fetchCompanyData,
     handleSearchTypeChange,
-    handleCompanySelection,
-    handleAddressSelected,
     clearFormFields,
   } = useCompanySearchForm({
     pageSize,
@@ -111,22 +94,61 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     context
   });
 
+  const {
+    name,
+    adress,
+    postnummer,
+    poststed,
+    registrationDate,
+    coordinates,
+    email,
+    phone,
+    website,
+    setName,
+    setAdress,
+    setPostnummer,
+    setPoststed,
+    setRegistrationDate,
+    clearForm,
+    populateFormFromCompany,
+    updateAddressFromMap,
+  } = useCompanyFormState(showViewMapButton);
+
+  // Dialog states
+  const [isJsonDialogOpen, setIsJsonDialogOpen] = React.useState(false);
+  const [isMapDialogOpen, setIsMapDialogOpen] = React.useState(false);
+
+  const handleCompanySelection = async (companyName: string): Promise<void> => {
+    if (!companyName || companyName.trim() === '') {
+      clearForm();
+      console.log('Company selection cleared');
+      return;
+    }
+
+    const company = companies.find(c => c.navn === companyName);
+    if (company) {
+      setSelectedCompany(company);
+      await populateFormFromCompany(company, country);
+      showToast('Company selected', `Selected: ${company.navn}`);
+    }
+  };
+
   const getLoadingText = () => {
     switch (searchType) {
       case 'orgNumber':
-        return getString(context, 'loading.lookinguporgs');
+        return 'Looking up organization...';
       case 'industry':
-        return getString(context, 'loading.searchcompbyindustry');
+        return 'Searching for companies by industry...';
       default:
-        return getString(context, 'loading.searchforcomps');
+        return 'Searching for companies...';
     }
   };
 
   const handleAccept = () => {
     if (disabled) return;
-
+    
     if (!selectedCompany) {
-      showToast(getString(context, 'errors.title'), getString(context, 'errors.selectCompanyFirst'), 'error');
+      showToast('Error', 'Please select a company first', 'error');
       return;
     }
 
@@ -137,32 +159,26 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
       postnummer: postnummer.trim(),
       poststed: poststed.trim(),
       registrationDate: registrationDate,
+      email: email.trim(),
+      phone: phone.trim(),
+      website: website.trim(),
       ...(showViewMapButton && coordinates ? { lat: coordinates.lat, lng: coordinates.lng } : {})
     };
 
+    console.log('Company data accepted:', companyData);
+    
     if (onCompanySelected) {
       onCompanySelected(companyData);
     }
 
-    showToast(getString(context, 'success.title'), getString(context, 'success.companyAccepted'));
-
-    // Reset
-    clearFormFields();
+    showToast('Success', 'Company information accepted successfully!');
+    
+    // Reset the form and search after accepting
+    clearForm();
     setSearchQuery('');
     setCompanies([]);
     setSelectedCompany(null);
   };
-
-  const handleClear = () => {
-    if (disabled) return;
-    // Reset
-    clearFormFields();
-    setSearchQuery('');
-    setCompanies([]);
-    setSelectedCompany(null);
-
-    showToast(getString(context, 'success.title'), getString(context, 'success.formCleared'));
-  }
 
   const handleViewJson = () => {
     if (selectedCompany && (showViewJsonButton || showViewMapButton)) {
@@ -185,22 +201,22 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
           {isSearching && (
             <div className={styles.loadingOverlay}>
               <div className={styles.loadingContent}>
-                <Spinner size='large' />
-                <FluentText weight='semibold'>
+                <Spinner size="large" />
+                <FluentText weight="semibold">
                   {getLoadingText()}
                 </FluentText>
               </div>
             </div>
           )}
-
+          
           <div className={styles.formContainer}>
             {/* Content */}
             {showTitle && (
-              <FluentText as='h2' size={600} weight='semibold' style={{ marginBottom: '16px' }}>
-                {getString(context, 'titles.main')}
+              <FluentText as="h2" size={600} weight="semibold" style={{ marginBottom: '16px' }}>
+                Norwegian Business Registry Search
               </FluentText>
             )}
-
+            
             <CompanySearch
               searchQuery={searchQuery}
               onSearchQueryChange={setSearchQuery}
@@ -212,7 +228,7 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
               onViewJson={handleViewJson}
               onViewMap={handleViewMap}
               error={null}
-              mode='form'
+              mode="form"
               showViewJsonButton={showViewJsonButton}
               showViewMapButton={showViewMapButton}
               showExportExcelButton={showExportExcelButton}
@@ -222,9 +238,9 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
               disabled={disabled}
               context={context}
             />
-
+            
             <Divider style={{ margin: '24px 0' }} />
-
+            
             <CompanyForm
               selectedCompany={selectedCompany}
               name={name}
@@ -244,27 +260,20 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
             {/* Actions */}
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end', marginTop: '24px' }}>
               {onCancel && (
-                <FluentButton
-                  appearance='secondary'
+                <FluentButton 
+                  appearance="secondary" 
                   onClick={onCancel}
                   disabled={disabled}
                 >
-                  {getString(context, 'dialog.cancel')}
+                  Cancel
                 </FluentButton>
               )}
-              <FluentButton
-                appearance='outline'
-                onClick={handleClear}
-                disabled={!selectedCompany || isSearching || disabled}
-              >
-                {getString(context, 'dialog.ariaLabel.clear')}
-              </FluentButton>
-              <FluentButton
-                appearance='primary'
+              <FluentButton 
+                appearance="primary" 
                 onClick={handleAccept}
                 disabled={!selectedCompany || isSearching || disabled}
               >
-                {isSearching ? getString(context, 'dialog.processing') : getString(context, 'dialog.accept')}
+                {isSearching ? 'Processing...' : 'Accept'}
               </FluentButton>
             </div>
           </div>
@@ -287,7 +296,7 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
           onClose={() => setIsMapDialogOpen(false)}
           company={selectedCompany}
           country={country}
-          onAddressSelected={handleAddressSelected}
+          onAddressSelected={updateAddressFromMap}
           context={context}
         />
       )}
