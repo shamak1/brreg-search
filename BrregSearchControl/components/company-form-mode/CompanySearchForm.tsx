@@ -25,6 +25,7 @@ import { useCompanySearchFormStyles } from '../../styles/companySearchForm.style
 import { useCompanyFormState } from '../../hooks/search-brreg/useCompanyFormState';
 import { useCompanySearchForm } from '../../hooks/useCompanySearchForm';
 import { CompanySearchFormProps } from '../../types/company';
+import { getString } from '../../utils/translationHelper';
 
 const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
   onCompanySelected,
@@ -86,7 +87,6 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     setSelectedCompany,
     fetchCompanyData,
     handleSearchTypeChange,
-    clearFormFields,
   } = useCompanySearchForm({
     pageSize,
     showViewMapButton,
@@ -114,14 +114,12 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     updateAddressFromMap,
   } = useCompanyFormState(showViewMapButton);
 
-  // Dialog states
   const [isJsonDialogOpen, setIsJsonDialogOpen] = React.useState(false);
   const [isMapDialogOpen, setIsMapDialogOpen] = React.useState(false);
 
   const handleCompanySelection = async (companyName: string): Promise<void> => {
     if (!companyName || companyName.trim() === '') {
       clearForm();
-      console.log('Company selection cleared');
       return;
     }
 
@@ -129,18 +127,18 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     if (company) {
       setSelectedCompany(company);
       await populateFormFromCompany(company, country);
-      showToast('Company selected', `Selected: ${company.navn}`);
+      showToast(getString(context, 'success.companySelected'), `${getString(context, 'success.selected')} ${company.navn}`);
     }
   };
 
   const getLoadingText = () => {
     switch (searchType) {
       case 'orgNumber':
-        return 'Looking up organization...';
+        return getString(context, 'loading.lookinguporgs');
       case 'industry':
-        return 'Searching for companies by industry...';
+        return getString(context, 'loading.searchcompbyindustry');
       default:
-        return 'Searching for companies...';
+        return getString(context, 'loading.searchforcomps');
     }
   };
 
@@ -148,7 +146,7 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     if (disabled) return;
     
     if (!selectedCompany) {
-      showToast('Error', 'Please select a company first', 'error');
+      showToast(getString(context, 'errors.title'), getString(context, 'errors.selectCompanyFirst'), 'error');
       return;
     }
 
@@ -164,14 +162,12 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
       website: website.trim(),
       ...(showViewMapButton && coordinates ? { lat: coordinates.lat, lng: coordinates.lng } : {})
     };
-
-    console.log('Company data accepted:', companyData);
     
     if (onCompanySelected) {
       onCompanySelected(companyData);
     }
 
-    showToast('Success', 'Company information accepted successfully!');
+    showToast(getString(context, 'success.title'), getString(context, 'success.companyAccepted'));
     
     // Reset the form and search after accepting
     clearForm();
@@ -179,6 +175,17 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
     setCompanies([]);
     setSelectedCompany(null);
   };
+
+  const handleClear = () => {
+    if (disabled) return;
+    // Reset
+    clearForm();
+    setSearchQuery('');
+    setCompanies([]);
+    setSelectedCompany(null);
+
+    showToast(getString(context, 'success.title'), getString(context, 'success.formCleared'));
+  }
 
   const handleViewJson = () => {
     if (selectedCompany && (showViewJsonButton || showViewMapButton)) {
@@ -213,7 +220,7 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
             {/* Content */}
             {showTitle && (
               <FluentText as="h2" size={600} weight="semibold" style={{ marginBottom: '16px' }}>
-                Norwegian Business Registry Search
+                {getString(context, 'titles.main')}
               </FluentText>
             )}
             
@@ -265,15 +272,22 @@ const CompanySearchForm: React.FC<CompanySearchFormProps> = ({
                   onClick={onCancel}
                   disabled={disabled}
                 >
-                  Cancel
+                  {getString(context, 'dialog.cancel')}
                 </FluentButton>
               )}
-              <FluentButton 
-                appearance="primary" 
+              <FluentButton
+                appearance='outline'
+                onClick={handleClear}
+                disabled={!selectedCompany || isSearching || disabled}
+              >
+                {getString(context, 'dialog.ariaLabel.clear')}
+              </FluentButton>
+              <FluentButton
+                appearance="primary"
                 onClick={handleAccept}
                 disabled={!selectedCompany || isSearching || disabled}
               >
-                {isSearching ? 'Processing...' : 'Accept'}
+                {isSearching ? getString(context, 'dialog.processing') : getString(context, 'dialog.accept')}
               </FluentButton>
             </div>
           </div>
