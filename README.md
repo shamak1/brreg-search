@@ -162,3 +162,6 @@ This component uses:
 - [OpenStreetMap](https://www.openstreetmap.org/)
 - [Leaflet](https://leafletjs.com/)
 
+
+> 🤖 Real talk: Thanks for reading this far! Writing documentation is harsh. 🫡
+
